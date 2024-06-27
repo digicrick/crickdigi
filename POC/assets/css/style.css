@@ -1918,3 +1918,39 @@ input[type="checkbox"] {
 .ds-font-medium {
   font-weight: 500;
 }
+.form-box{
+  position: relative;
+}
+.btn-custom {
+  width: 100px !important;
+  background-color: #03A9f4 !important;
+  color: whitesmoke !important;
+  margin-left: 10px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  margin-left: 10px; 
+}
+
+.btn-custom:hover {
+  filter: brightness(95%) !important;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: auto; 
+  width: 100%;
+}
+
+.form-heading{
+  font-size: 30px;
+  /* margin: 0;
+  padding: 0;
+  line-height: 1; */
+  color:#03A9f4;
+  font-weight: 300;
+  letter-spacing: 0.8px;
+  font-family: "Poppins", sans-serif;
+}
