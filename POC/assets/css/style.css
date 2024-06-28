@@ -24,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+    font-family: BentonSans-Bold,Arial,Noto Sans,sans-serif;
 }
 
 .fs-12{
@@ -1918,6 +1918,21 @@ input[type="checkbox"] {
 .ds-font-medium {
   font-weight: 500;
 }
+
+.left-wrapper .accordion-button:not(.collapsed){
+  color: #0098dc !important;
+  background-color: #f0f0f0 !important;
+
+}
+.left-wrapper .accordion-button:focus {
+  z-index: 3;
+  /* border-color: #00a8f4; */
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem #ececec;
+}
+.left-wrapper .accordion-body,.left-wrapper .accordion-button {padding:10px}
+
+
 .form-box{
   position: relative;
 }
@@ -1954,5 +1969,4 @@ input[type="checkbox"] {
   color:#03A9f4;
   font-weight: 300;
   letter-spacing: 0.8px;
-  font-family: "Poppins", sans-serif;
-}
+  }
