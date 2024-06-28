@@ -30,6 +30,53 @@ h6 {
 .fs-12{
   font-size: 12px;
 }
+
+/* Styles for button */
+.btn-custom {
+  width: 100px !important;
+  background-color: #03A9f4 !important;
+  color: whitesmoke !important;
+  margin-left: 10px;
+  display: flex; 
+  justify-content: center !important; 
+  align-items: center; 
+  margin-left: 10px; 
+}
+
+.btn-custom-cancel {
+  width: 100px !important;
+  background-color: grey !important;
+  color: whitesmoke !important;
+  margin-left: 10px;
+  display: flex; 
+  justify-content: center !important; 
+  align-items: center; 
+  margin-left: 10px; 
+}
+
+.btn-custom:hover {
+  filter: brightness(95%) !important;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: auto; 
+  width: 100%;
+}
+
+/* custom styles for form headings */
+.form-heading{
+  font-size: 2rem;
+  /* margin: 0;
+  padding: 0;
+  line-height: 1; */
+  color: black;
+  font-weight: 300;
+  letter-spacing: 0.8px;
+  }
+
  
 
 /*--------------------------------------------------------------
@@ -1896,9 +1943,9 @@ background-color: rgb(249 249 251 / 100%);
   transition: 0.25s ease-in-out;
 }
 
-input[type="checkbox"] {
+/* input[type="checkbox"] {
   display: none;
-}
+} */
 
 
 .bi-chevron-right::before {
@@ -1936,37 +1983,3 @@ input[type="checkbox"] {
 .form-box{
   position: relative;
 }
-/* Styles for button */
-.btn-custom {
-  width: 100px !important;
-  background-color: #03A9f4 !important;
-  color: whitesmoke !important;
-  margin-left: 10px;
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  margin-left: 10px; 
-}
-
-.btn-custom:hover {
-  filter: brightness(95%) !important;
-}
-
-.button-container {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-top: auto; 
-  width: 100%;
-}
-
-/* custom styles for form headings */
-.form-heading{
-  font-size: 30px;
-  /* margin: 0;
-  padding: 0;
-  line-height: 1; */
-  color:#03A9f4;
-  font-weight: 300;
-  letter-spacing: 0.8px;
-  }
