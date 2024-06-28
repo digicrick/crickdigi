@@ -1921,6 +1921,7 @@ input[type="checkbox"] {
 .form-box{
   position: relative;
 }
+/* Styles for button */
 .btn-custom {
   width: 100px !important;
   background-color: #03A9f4 !important;
@@ -1944,6 +1945,7 @@ input[type="checkbox"] {
   width: 100%;
 }
 
+/* custom styles for form headings */
 .form-heading{
   font-size: 30px;
   /* margin: 0;
