@@ -243,17 +243,19 @@ h6 {
 
 .navbar>ul>li {
   white-space: nowrap;
-  padding: 10px 0 10px 28px;
+  padding: 14px;
 }
 
+.navbar>ul>li:hover{
+  background:rgb(0 152 220)
+}
 .navbar a,
 .navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 3px;
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 0.875rem;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
@@ -267,7 +269,7 @@ h6 {
   margin-left: 5px;
 }
 
-.navbar>ul>li>a:before {
+/*.navbar>ul>li>a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -278,8 +280,7 @@ h6 {
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
-}
-
+}*/
 .navbar a:hover:before,
 .navbar li:hover>a:before,
 .navbar .active:before {
