@@ -2021,8 +2021,9 @@ background-color: rgb(249 249 251 / 100%);
 }
 
 .left-wrapper .accordion-button:not(.collapsed){
-  color: #0098dc !important;
-  background-color: #f0f0f0 !important;
+  color: #000000 !important;
+    /* background-color: #f0f0f0 !important; */
+    background-color: rgb(215 238 254);
 
 }
 .left-wrapper .accordion-button:focus {
