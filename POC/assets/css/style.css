@@ -27,9 +27,7 @@ h6 {
     font-family: BentonSans-Bold,Arial,Noto Sans,sans-serif;
 }
 
-.fs-12{
-  font-size: 12px;
-}
+ 
 
 /* Common styles for buttons */
  .digi-btn-primary{
@@ -78,59 +76,6 @@ h6 {
 
 
 
-/* Styles for button */
-.btn-custom {
-  width: 100px !important;
-  background-color: #03A9f4 !important;
-  color: whitesmoke !important;
-  margin-left: 10px;
-  display: flex; 
-  justify-content: center !important; 
-  align-items: center; 
-  margin-left: 10px; 
-}
-
-.btn-custom-cancel {
-  width: 100px !important;
-  background-color: grey !important;
-  color: whitesmoke !important;
-  margin-left: 10px;
-  display: flex; 
-  justify-content: center !important; 
-  align-items: center; 
-  margin-left: 10px; 
-}
-
-.btn-custom:hover {
-  filter: brightness(95%) !important;
-}
-
-.button-container {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-top: auto; 
-  width: 100%;
-}
-
-/* custom styles for form headings */
-.main-heading{
-  font-size: 1.2rem;
-
-  /* margin: 0;
-  padding: 0;
-  line-height: 1; */
-  color: black;
-  font-weight: 300;
-  letter-spacing: 0.8px;
-}
-
-.sub-heading{
-  font-size: 1rem !important;
-  color: black;
-  font-weight: 300;
-  letter-spacing: 0.8px;
-}
 
 /*--------------------------------------------------------------
 # Top Bar
@@ -249,6 +194,7 @@ h6 {
 .navbar>ul>li:hover{
   background:rgb(0 152 220)
 }
+
 .navbar a,
 .navbar a:focus {
   display: flex;
@@ -2020,6 +1966,7 @@ background-color: rgb(249 249 251 / 100%);
   font-weight: 500;
 }
 
+ /*Trial Details */
 .left-wrapper .accordion-button:not(.collapsed),.trial-accordion .accordion-button:not(.collapsed){
   color: #000000 !important;
     /* background-color: #f0f0f0 !important; */
@@ -2081,12 +2028,9 @@ background-color: rgb(249 249 251 / 100%);
 .panel-body {
   padding: 15px;
 }
-.trial-accordion .nav-link{color:#000;font-size: 0.875rem}
-.trial-accordion .nav-tabs .nav-link.active{color:#00a8f4;border-bottom: 4px solid #00a8f4; font-size: 0.875rem;
-  padding: 10px;}
+.trial-accordion .nav-link{color:#212529;font-size: 0.875rem;}
+.trial-accordion .nav-tabs .nav-link.active{color:#00a8f4;border-bottom: 4px solid #00a8f4;font-size: 0.875rem;}
 .trial-accordion .nav-tabs .nav-link{border:none}
-
-
 .form-box{
   position: relative;
 }
