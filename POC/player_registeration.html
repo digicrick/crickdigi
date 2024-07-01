@@ -1,438 +1,625 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Player Registration</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
-    <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/style2.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-</head>
-<body>
-    <!-- ======= Top Bar ======= -->
-    <section id="topbar" class="d-flex align-items-center d-none d-sm-block">
-        <div class="container d-flex justify-content-center justify-content-md-between">
-            <div class="contact-info d-flex align-items-center">
-                <span>Matches(24)</span>
-                <span class="px-3">SL v ZIM (2)</span>
-                <span class="px-3">IND v AUS (1)</span>
-                <span class="px-3">Super Smash (1)</span>
-                <span class="px-3">BBL 2023 (2)</span>
-            </div>
-        </div>
-    </section>
 
-    <!-- Top Carousel -->
-    <div class="container-fluid bg-primary-header d-none d-sm-block">
-        <div class="container">
-            <div class="wrapper">
-                <i id="left" class="bi bi-chevron-left"></i>
-                <ul class="carousel">
-                    <li class="card">
-                        <div style="outline:none" data-index="1" class="slick-slide slick-active" tabindex="-1" aria-hidden="false">
-                           <div>
-                              <div class="ds-p-2 ds-pb-0.5 ds-bg-fill-hsb-scorecell ds-text-compact-2xs ds-rounded-xl ds-h-[155px]" tabindex="-1" style="width:100%;display:inline-block">
-                                 <div class="ds-text-compact-xxs">
-                                    <div class="ds-relative ds-w-[288px] card scorecard"><a href=" " class="ds-no-tap-higlight">
-                                       <div class="ds-flex ds-justify-between ds-items-center d-none">
-                                          <div class="ds-truncate ">
-                                             <span class="ds-text-raw-red">
-                                                <span class="ds-text-tight-xs ds-font-bold ds-uppercase ds-leading-5">Live</span></span>
-                                                <span class="ds-text-tight-xs ds-text-typo-mid2">
-                                                   <span class="ds-text-tight-xs ds-font-medium">&nbsp;•&nbsp;2nd TEST</span>&nbsp;•&nbsp; Melbourne</span></div>
-                                          <div class="ds-leading-[0]"></div>
+<head>
+   <meta charset="utf-8">
+   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+   <title>Player Registration</title>
+   <meta content="" name="description">
+   <meta content="" name="keywords">
+   <!-- Favicons -->
+   <link href="assets/img/favicon.png" rel="icon">
+   <!-- Google Fonts -->
+   <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet">
+   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+   <link href="assets/css/style.css" rel="stylesheet">
+   <link href="assets/css/style2.css" rel="stylesheet">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+
+<body>
+   <!-- ======= Top Bar ======= -->
+   <section id="topbar" class="d-flex align-items-center d-none d-sm-block">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+         <div class="contact-info d-flex align-items-center">
+            <span>Matches(24)</span>
+            <span class="px-3">SL v ZIM (2)</span>
+            <span class="px-3">IND v AUS (1)</span>
+            <span class="px-3">Super Smash (1)</span>
+            <span class="px-3">BBL 2023 (2)</span>
+         </div>
+      </div>
+   </section>
+
+    <!--Top Carousel-->
+    <div class="container-fluid bg-primary-header d-none  d-sm-block">
+      <div class="container">
+         <div class="wrapper">
+            <i id="left" class="bi bi-chevron-left"></i>
+            <ul class="carousel">
+               <li class="card">
+                  <div style="outline:none" data-index="1" class="slick-slide slick-active" tabindex="-1"
+                     aria-hidden="false">
+                     <div>
+                        <div
+                           class="ds-p-2 ds-pb-0.5 ds-bg-fill-hsb-scorecell ds-text-compact-2xs ds-rounded-xl ds-h-[155px]"
+                           tabindex="-1" style="width:100%;display:inline-block">
+                           <div class="ds-text-compact-xxs">
+                              <div class="ds-relative ds-w-[288px] card scorecard"><a href=" "
+                                    class="ds-no-tap-higlight">
+                                    <div class="ds-flex ds-justify-between ds-items-center d-none">
+                                       <div class="ds-truncate ">
+                                          <span class="ds-text-raw-red">
+                                             <span
+                                                class="ds-text-tight-xs ds-font-bold ds-uppercase ds-leading-5">Live</span></span>
+                                          <span class="ds-text-tight-xs ds-text-typo-mid2">
+                                             <span class="ds-text-tight-xs ds-font-medium">&nbsp;•&nbsp;2nd
+                                                TEST</span>&nbsp;•&nbsp; Melbourne</span>
                                        </div>
-                                       <div class="">
-                                          <div class="ds-flex ds-flex-col ds-mb-2 ds-mt-1 ds-space-y-1">
-                                             <div class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
-                                                <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="AUS">
-                                                   <img width="20" height="20" alt="AUS Flag" class="ds-mr-2 d-none" src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png" style="width: 20px; height: 20px;">
-                                                   <p class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate !ds-text-typo-mid3 mt-0">Super Trail</p>
-                                                </div>
-                                                <div class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap">
-                                                   <span class="ds-text-tight-xxs ds-mr-0.5"></span>
-                                                   <strong class="ds-text-typo-mid3">FEB 14<span>-</span></strong><strong class="ds-text-typo-mid3">FEB 16</strong></div>
+                                       <div class="ds-leading-[0]"></div>
+                                    </div>
+                                    <div class="">
+                                       <div class="ds-flex ds-flex-col ds-mb-2 ds-mt-1 ds-space-y-1">
+                                          <div
+                                             class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
+                                             <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="AUS">
+                                                <img width="20" height="20" alt="AUS Flag" class="ds-mr-2 d-none"
+                                                   src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png"
+                                                   style="width: 20px; height: 20px;">
+                                                <p
+                                                   class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate !ds-text-typo-mid3 mt-0">
+                                                   Super Trail</p>
                                              </div>
-                                             <div class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
-                                                <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="PAK">
-                                                   <img width="20" height="20" alt="PAK Flag" class="ds-mr-2 d-none" src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313129.logo.png" style="width: 20px; height: 20px;">
-                                                   <p class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate">Jan Khan</p>
-                                                </div>
-                                                <div class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap fadeIn-enter-done">
-                                                   <span class="ds-text-compact-xxs ds-mr-0.5">035-52345324 </span>
-                                                    </div>
+                                             <div
+                                                class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap">
+                                                <span class="ds-text-tight-xxs ds-mr-0.5"></span>
+                                                <strong class="ds-text-typo-mid3">FEB 14<span>-</span></strong><strong
+                                                   class="ds-text-typo-mid3">FEB 16</strong>
+                                             </div>
+                                          </div>
+                                          <div
+                                             class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
+                                             <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="PAK">
+                                                <img width="20" height="20" alt="PAK Flag" class="ds-mr-2 d-none"
+                                                   src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313129.logo.png"
+                                                   style="width: 20px; height: 20px;">
+                                                <p class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate">Jan
+                                                   Khan</p>
+                                             </div>
+                                             <div
+                                                class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap fadeIn-enter-done">
+                                                <span class="ds-text-compact-xxs ds-mr-0.5">035-52345324 </span>
                                              </div>
                                           </div>
                                        </div>
-                                       <p class="ds-text-tight-xs ds-truncate ds-text-typo" title="AUS vs PAK - 2nd Test"><span>National Stadium - Lahore, Punjab</span></p>
-                                       </a>
-                                       <div class="ds-flex ds-mt-2 ds-py-1 ds-border-t ds-border-line-default-translucent justify-content-between"><a href=" " class="ds-no-tap-higlight">
-                              <span title=" " class="ds-inline-flex ds-items-start ds-leading-none ds-mr-4">
-                                 <span class="ds-text-compact-xs ds-font-medium ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block pt-2">9:00 AM to 11:00 AM</span></span>
-                                 </a><a href="#" title="Register" class="ds-inline-flex ds-items-start ds-leading-none   bg-success rounded p-1 text-white register-btn">
-                                    <span class="ds-text-tight-xs   ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block text-white">Register</span></a>
-                                     </div>
                                     </div>
-                                    </div>
+                                    <p class="ds-text-tight-xs ds-truncate ds-text-typo" title="AUS vs PAK - 2nd Test">
+                                       <span>National Stadium - Lahore, Punjab</span></p>
+                                 </a>
+                                 <div
+                                    class="ds-flex ds-mt-2 ds-py-1 ds-border-t ds-border-line-default-translucent justify-content-between">
+                                    <a href=" " class="ds-no-tap-higlight">
+                                       <span title=" " class="ds-inline-flex ds-items-start ds-leading-none ds-mr-4">
+                                          <span
+                                             class="ds-text-compact-xs ds-font-medium ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block pt-2">9:00
+                                             AM to 11:00 AM</span></span>
+                                    </a><a href="#" title="Register"
+                                       class="ds-inline-flex ds-items-start ds-leading-none   rounded p-1  ">
+                                       <span
+                                          class="ds-text-tight-xs   ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block text-success ">Register
+                                          <span class="bi bi-arrow-right fw-bold pt-2"></span></span></a>
+                                 </div>
                               </div>
                            </div>
                         </div>
-                     </li>
-                     <li class="card">
-                        <div style="outline:none" data-index="1" class="slick-slide slick-active" tabindex="-1" aria-hidden="false">
-                           <div>
-                              <div class="ds-p-2 ds-pb-0.5 ds-bg-fill-hsb-scorecell ds-text-compact-2xs ds-rounded-xl ds-h-[155px]" tabindex="-1" style="width:100%;display:inline-block">
-                                 <div class="ds-text-compact-xxs">
-                                    <div class="ds-relative ds-w-[288px] card scorecard"><a href=" " class="ds-no-tap-higlight">
-                                       <div class="ds-flex ds-justify-between ds-items-center d-none">
-                                          <div class="ds-truncate ">
-                                             <span class="ds-text-raw-red">
-                                                <span class="ds-text-tight-xs ds-font-bold ds-uppercase ds-leading-5">Live</span></span>
-                                                <span class="ds-text-tight-xs ds-text-typo-mid2">
-                                                   <span class="ds-text-tight-xs ds-font-medium">&nbsp;•&nbsp;2nd TEST</span>&nbsp;•&nbsp; Melbourne</span></div>
-                                          <div class="ds-leading-[0]"></div>
+                     </div>
+                  </div>
+               </li>
+               <li class="card">
+                  <div style="outline:none" data-index="1" class="slick-slide slick-active" tabindex="-1"
+                     aria-hidden="false">
+                     <div>
+                        <div
+                           class="ds-p-2 ds-pb-0.5 ds-bg-fill-hsb-scorecell ds-text-compact-2xs ds-rounded-xl ds-h-[155px]"
+                           tabindex="-1" style="width:100%;display:inline-block">
+                           <div class="ds-text-compact-xxs">
+                              <div class="ds-relative ds-w-[288px] card scorecard"><a href=" "
+                                    class="ds-no-tap-higlight">
+                                    <div class="ds-flex ds-justify-between ds-items-center d-none">
+                                       <div class="ds-truncate ">
+                                          <span class="ds-text-raw-red">
+                                             <span
+                                                class="ds-text-tight-xs ds-font-bold ds-uppercase ds-leading-5">Live</span></span>
+                                          <span class="ds-text-tight-xs ds-text-typo-mid2">
+                                             <span class="ds-text-tight-xs ds-font-medium">&nbsp;•&nbsp;2nd
+                                                TEST</span>&nbsp;•&nbsp; Melbourne</span>
                                        </div>
-                                       <div class="">
-                                          <div class="ds-flex ds-flex-col ds-mb-2 ds-mt-1 ds-space-y-1">
-                                             <div class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
-                                                <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="AUS">
-                                                   <img width="20" height="20" alt="AUS Flag" class="ds-mr-2 d-none" src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png" style="width: 20px; height: 20px;">
-                                                   <p class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate !ds-text-typo-mid3 mt-0">Super Trail</p>
-                                                </div>
-                                                <div class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap">
-                                                   <span class="ds-text-tight-xxs ds-mr-0.5"></span>
-                                                   <strong class="ds-text-typo-mid3">FEB 14<span>-</span></strong><strong class="ds-text-typo-mid3">FEB 16</strong></div>
+                                       <div class="ds-leading-[0]"></div>
+                                    </div>
+                                    <div class="">
+                                       <div class="ds-flex ds-flex-col ds-mb-2 ds-mt-1 ds-space-y-1">
+                                          <div
+                                             class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
+                                             <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="AUS">
+                                                <img width="20" height="20" alt="AUS Flag" class="ds-mr-2 d-none"
+                                                   src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png"
+                                                   style="width: 20px; height: 20px;">
+                                                <p
+                                                   class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate !ds-text-typo-mid3 mt-0">
+                                                   Super Trail</p>
                                              </div>
-                                             <div class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
-                                                <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="PAK">
-                                                   <img width="20" height="20" alt="PAK Flag" class="ds-mr-2 d-none" src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313129.logo.png" style="width: 20px; height: 20px;">
-                                                   <p class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate">Jan Khan</p>
-                                                </div>
-                                                <div class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap fadeIn-enter-done">
-                                                   <span class="ds-text-compact-xxs ds-mr-0.5">035-52345324 </span>
-                                                    </div>
+                                             <div
+                                                class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap">
+                                                <span class="ds-text-tight-xxs ds-mr-0.5"></span>
+                                                <strong class="ds-text-typo-mid3">FEB 14<span>-</span></strong><strong
+                                                   class="ds-text-typo-mid3">FEB 16</strong>
+                                             </div>
+                                          </div>
+                                          <div
+                                             class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
+                                             <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="PAK">
+                                                <img width="20" height="20" alt="PAK Flag" class="ds-mr-2 d-none"
+                                                   src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313129.logo.png"
+                                                   style="width: 20px; height: 20px;">
+                                                <p class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate">Jan
+                                                   Khan</p>
+                                             </div>
+                                             <div
+                                                class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap fadeIn-enter-done">
+                                                <span class="ds-text-compact-xxs ds-mr-0.5">035-52345324 </span>
                                              </div>
                                           </div>
                                        </div>
-                                       <p class="ds-text-tight-xs ds-truncate ds-text-typo" title="AUS vs PAK - 2nd Test"><span>National Stadium - Lahore, Punjab</span></p>
-                                       </a>
-                                       <div class="ds-flex ds-mt-2 ds-py-1 ds-border-t ds-border-line-default-translucent justify-content-between"><a href=" " class="ds-no-tap-higlight">
-                                          <span title=" " class="ds-inline-flex ds-items-start ds-leading-none ds-mr-4">
-                                             <span class="ds-text-compact-xs ds-font-medium ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block pt-2">9:00 AM to 11:00 AM</span></span>
-                                             </a><a href="#" title="Register" class="ds-inline-flex ds-items-start ds-leading-none   bg-success rounded p-1 text-white register-btn">
-                                                <span class="ds-text-tight-xs   ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block text-white">Register</span></a>
-                                                 </div>
                                     </div>
-                                    </div>
+                                    <p class="ds-text-tight-xs ds-truncate ds-text-typo" title="AUS vs PAK - 2nd Test">
+                                       <span>National Stadium - Lahore, Punjab</span></p>
+                                 </a>
+                                 <div
+                                    class="ds-flex ds-mt-2 ds-py-1 ds-border-t ds-border-line-default-translucent justify-content-between">
+                                    <a href=" " class="ds-no-tap-higlight">
+                                       <span title=" " class="ds-inline-flex ds-items-start ds-leading-none ds-mr-4">
+                                          <span
+                                             class="ds-text-compact-xs ds-font-medium ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block pt-2">9:00
+                                             AM to 11:00 AM</span></span>
+                                    </a>
+                                    <a href="#" title="Register"
+                                       class="ds-inline-flex ds-items-start ds-leading-none  rounded p-1  ">
+                                       <span
+                                          class="ds-text-tight-xs   ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block text-success ">Register
+                                          <span class="bi bi-arrow-right fw-bold pt-2"></span></span></a>
+                                 </div>
                               </div>
                            </div>
                         </div>
-                     </li>
-                     <li class="card">
-                        <div style="outline:none" data-index="1" class="slick-slide slick-active" tabindex="-1" aria-hidden="false">
-                           <div>
-                              <div class="ds-p-2 ds-pb-0.5 ds-bg-fill-hsb-scorecell ds-text-compact-2xs ds-rounded-xl ds-h-[155px]" tabindex="-1" style="width:100%;display:inline-block">
-                                 <div class="ds-text-compact-xxs">
-                                    <div class="ds-relative ds-w-[288px] card scorecard"><a href=" " class="ds-no-tap-higlight">
-                                       <div class="ds-flex ds-justify-between ds-items-center d-none">
-                                          <div class="ds-truncate ">
-                                             <span class="ds-text-raw-red">
-                                                <span class="ds-text-tight-xs ds-font-bold ds-uppercase ds-leading-5">Live</span></span>
-                                                <span class="ds-text-tight-xs ds-text-typo-mid2">
-                                                   <span class="ds-text-tight-xs ds-font-medium">&nbsp;•&nbsp;2nd TEST</span>&nbsp;•&nbsp; Melbourne</span></div>
-                                          <div class="ds-leading-[0]"></div>
+                     </div>
+                  </div>
+               </li>
+               <li class="card">
+                  <div style="outline:none" data-index="1" class="slick-slide slick-active" tabindex="-1"
+                     aria-hidden="false">
+                     <div>
+                        <div
+                           class="ds-p-2 ds-pb-0.5 ds-bg-fill-hsb-scorecell ds-text-compact-2xs ds-rounded-xl ds-h-[155px]"
+                           tabindex="-1" style="width:100%;display:inline-block">
+                           <div class="ds-text-compact-xxs">
+                              <div class="ds-relative ds-w-[288px] card scorecard"><a href=" "
+                                    class="ds-no-tap-higlight">
+                                    <div class="ds-flex ds-justify-between ds-items-center d-none">
+                                       <div class="ds-truncate ">
+                                          <span class="ds-text-raw-red">
+                                             <span
+                                                class="ds-text-tight-xs ds-font-bold ds-uppercase ds-leading-5">Live</span></span>
+                                          <span class="ds-text-tight-xs ds-text-typo-mid2">
+                                             <span class="ds-text-tight-xs ds-font-medium">&nbsp;•&nbsp;2nd
+                                                TEST</span>&nbsp;•&nbsp; Melbourne</span>
                                        </div>
-                                       <div class="">
-                                          <div class="ds-flex ds-flex-col ds-mb-2 ds-mt-1 ds-space-y-1">
-                                             <div class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
-                                                <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="AUS">
-                                                   <img width="20" height="20" alt="AUS Flag" class="ds-mr-2 d-none" src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png" style="width: 20px; height: 20px;">
-                                                   <p class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate !ds-text-typo-mid3 mt-0">Super Trail</p>
-                                                </div>
-                                                <div class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap">
-                                                   <span class="ds-text-compact-xxs ds-mr-0.5"></span>
-                                                   <strong class="ds-text-typo-mid3">FEB 14<span>-</span></strong><strong class="ds-text-typo-mid3">FEB 16</strong></div>
+                                       <div class="ds-leading-[0]"></div>
+                                    </div>
+                                    <div class="">
+                                       <div class="ds-flex ds-flex-col ds-mb-2 ds-mt-1 ds-space-y-1">
+                                          <div
+                                             class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
+                                             <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="AUS">
+                                                <img width="20" height="20" alt="AUS Flag" class="ds-mr-2 d-none"
+                                                   src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png"
+                                                   style="width: 20px; height: 20px;">
+                                                <p
+                                                   class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate !ds-text-typo-mid3 mt-0">
+                                                   Super Trail</p>
                                              </div>
-                                             <div class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
-                                                <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="PAK">
-                                                   <img width="20" height="20" alt="PAK Flag" class="ds-mr-2 d-none" src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313129.logo.png" style="width: 20px; height: 20px;">
-                                                   <p class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate">Jan Khan</p>
-                                                </div>
-                                                <div class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap fadeIn-enter-done">
-                                                   <span class="ds-text-compact-xxs ds-mr-0.5">035-52345324 </span>
-                                                    </div>
+                                             <div
+                                                class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap">
+                                                <span class="ds-text-compact-xxs ds-mr-0.5"></span>
+                                                <strong class="ds-text-typo-mid3">FEB 14<span>-</span></strong><strong
+                                                   class="ds-text-typo-mid3">FEB 16</strong>
+                                             </div>
+                                          </div>
+                                          <div
+                                             class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
+                                             <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="PAK">
+                                                <img width="20" height="20" alt="PAK Flag" class="ds-mr-2 d-none"
+                                                   src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313129.logo.png"
+                                                   style="width: 20px; height: 20px;">
+                                                <p class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate">Jan
+                                                   Khan</p>
+                                             </div>
+                                             <div
+                                                class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap fadeIn-enter-done">
+                                                <span class="ds-text-compact-xxs ds-mr-0.5">035-52345324 </span>
                                              </div>
                                           </div>
                                        </div>
-                                       <p class="ds-text-tight-xs ds-truncate ds-text-typo" title="AUS vs PAK - 2nd Test"><span>National Stadium - Lahore, Punjab</span></p>
-                                       </a>
-                                       <div class="ds-flex ds-mt-2 ds-py-1 ds-border-t ds-border-line-default-translucent justify-content-between"><a href=" " class="ds-no-tap-higlight">
-                                          <span title=" " class="ds-inline-flex ds-items-start ds-leading-none ds-mr-4">
-                                             <span class="ds-text-compact-xs ds-font-medium ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block pt-2">9:00 AM to 11:00 AM</span></span>
-                                             </a><a href="#" title="Register" class="ds-inline-flex ds-items-start ds-leading-none   bg-success rounded p-1 text-white register-btn">
-                                                <span class="ds-text-tight-xs   ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block text-white">Register</span></a>
-                                                 </div>
                                     </div>
-                                    </div>
+                                    <p class="ds-text-tight-xs ds-truncate ds-text-typo" title="AUS vs PAK - 2nd Test">
+                                       <span>National Stadium - Lahore, Punjab</span></p>
+                                 </a>
+                                 <div
+                                    class="ds-flex ds-mt-2 ds-py-1 ds-border-t ds-border-line-default-translucent justify-content-between">
+                                    <a href=" " class="ds-no-tap-higlight">
+                                       <span title=" " class="ds-inline-flex ds-items-start ds-leading-none ds-mr-4">
+                                          <span
+                                             class="ds-text-compact-xs ds-font-medium ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block pt-2">9:00
+                                             AM to 11:00 AM</span></span>
+                                    </a><a href="#" title="Register"
+                                       class="ds-inline-flex ds-items-start ds-leading-none     rounded p-1  ">
+                                       <span
+                                          class="ds-text-tight-xs   ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block text-success ">Register
+                                          <span class="bi bi-arrow-right fw-bold pt-2"></span></span></a>
+                                 </div>
                               </div>
                            </div>
                         </div>
-                     </li>
-                     <li class="card">
-                        <div style="outline:none" data-index="1" class="slick-slide slick-active" tabindex="-1" aria-hidden="false">
-                           <div>
-                              <div class="ds-p-2 ds-pb-0.5 ds-bg-fill-hsb-scorecell ds-text-compact-2xs ds-rounded-xl ds-h-[155px]" tabindex="-1" style="width:100%;display:inline-block">
-                                 <div class="ds-text-compact-xxs">
-                                    <div class="ds-relative ds-w-[288px] card scorecard"><a href=" " class="ds-no-tap-higlight">
-                                       <div class="ds-flex ds-justify-between ds-items-center d-none">
-                                          <div class="ds-truncate ">
-                                             <span class="ds-text-raw-red">
-                                                <span class="ds-text-tight-xs ds-font-bold ds-uppercase ds-leading-5">Live</span></span>
-                                                <span class="ds-text-tight-xs ds-text-typo-mid2">
-                                                   <span class="ds-text-tight-xs ds-font-medium">&nbsp;•&nbsp;2nd TEST</span>&nbsp;•&nbsp; Melbourne</span></div>
-                                          <div class="ds-leading-[0]"></div>
+                     </div>
+                  </div>
+               </li>
+               <li class="card">
+                  <div style="outline:none" data-index="1" class="slick-slide slick-active" tabindex="-1"
+                     aria-hidden="false">
+                     <div>
+                        <div
+                           class="ds-p-2 ds-pb-0.5 ds-bg-fill-hsb-scorecell ds-text-compact-2xs ds-rounded-xl ds-h-[155px]"
+                           tabindex="-1" style="width:100%;display:inline-block">
+                           <div class="ds-text-compact-xxs">
+                              <div class="ds-relative ds-w-[288px] card scorecard"><a href=" "
+                                    class="ds-no-tap-higlight">
+                                    <div class="ds-flex ds-justify-between ds-items-center d-none">
+                                       <div class="ds-truncate ">
+                                          <span class="ds-text-raw-red">
+                                             <span
+                                                class="ds-text-tight-xs ds-font-bold ds-uppercase ds-leading-5">Live</span></span>
+                                          <span class="ds-text-tight-xs ds-text-typo-mid2">
+                                             <span class="ds-text-tight-xs ds-font-medium">&nbsp;•&nbsp;2nd
+                                                TEST</span>&nbsp;•&nbsp; Melbourne</span>
                                        </div>
-                                       <div class="">
-                                          <div class="ds-flex ds-flex-col ds-mb-2 ds-mt-1 ds-space-y-1">
-                                             <div class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
-                                                <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="AUS">
-                                                   <img width="20" height="20" alt="AUS Flag" class="ds-mr-2 d-none" src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png" style="width: 20px; height: 20px;">
-                                                   <p class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate !ds-text-typo-mid3 mt-0">Super Trail</p>
-                                                </div>
-                                                <div class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap">
-                                                   <span class="ds-text-compact-xxs ds-mr-0.5"></span>
-                                                   <strong class="ds-text-typo-mid3">FEB 14<span>-</span></strong><strong class="ds-text-typo-mid3">FEB 16</strong></div>
+                                       <div class="ds-leading-[0]"></div>
+                                    </div>
+                                    <div class="">
+                                       <div class="ds-flex ds-flex-col ds-mb-2 ds-mt-1 ds-space-y-1">
+                                          <div
+                                             class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
+                                             <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="AUS">
+                                                <img width="20" height="20" alt="AUS Flag" class="ds-mr-2 d-none"
+                                                   src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png"
+                                                   style="width: 20px; height: 20px;">
+                                                <p
+                                                   class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate !ds-text-typo-mid3 mt-0">
+                                                   Super Trail</p>
                                              </div>
-                                             <div class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
-                                                <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="PAK">
-                                                   <img width="20" height="20" alt="PAK Flag" class="ds-mr-2 d-none" src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313129.logo.png" style="width: 20px; height: 20px;">
-                                                   <p class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate">Jan Khan</p>
-                                                </div>
-                                                <div class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap fadeIn-enter-done">
-                                                   <span class="ds-text-compact-xxs ds-mr-0.5">035-52345324 </span>
-                                                    </div>
+                                             <div
+                                                class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap">
+                                                <span class="ds-text-compact-xxs ds-mr-0.5"></span>
+                                                <strong class="ds-text-typo-mid3">FEB 14<span>-</span></strong><strong
+                                                   class="ds-text-typo-mid3">FEB 16</strong>
+                                             </div>
+                                          </div>
+                                          <div
+                                             class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
+                                             <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="PAK">
+                                                <img width="20" height="20" alt="PAK Flag" class="ds-mr-2 d-none"
+                                                   src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313129.logo.png"
+                                                   style="width: 20px; height: 20px;">
+                                                <p class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate">Jan
+                                                   Khan</p>
+                                             </div>
+                                             <div
+                                                class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap fadeIn-enter-done">
+                                                <span class="ds-text-compact-xxs ds-mr-0.5">035-52345324 </span>
                                              </div>
                                           </div>
                                        </div>
-                                       <p class="ds-text-tight-xs ds-truncate ds-text-typo" title="AUS vs PAK - 2nd Test"><span>National Stadium - Lahore, Punjab</span></p>
-                                       </a>
-                                       <div class="ds-flex ds-mt-2 ds-py-1 ds-border-t ds-border-line-default-translucent justify-content-between"><a href=" " class="ds-no-tap-higlight">
-                                          <span title=" " class="ds-inline-flex ds-items-start ds-leading-none ds-mr-4">
-                                             <span class="ds-text-compact-xs ds-font-medium ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block pt-2">9:00 AM to 11:00 AM</span></span>
-                                             </a><a href="#" title="Register" class="ds-inline-flex ds-items-start ds-leading-none   bg-success rounded p-1 text-white register-btn">
-                                                <span class="ds-text-tight-xs   ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block text-white">Register</span></a>
-                                                 </div>
                                     </div>
-                                    </div>
+                                    <p class="ds-text-tight-xs ds-truncate ds-text-typo" title="AUS vs PAK - 2nd Test">
+                                       <span>National Stadium - Lahore, Punjab</span></p>
+                                 </a>
+                                 <div
+                                    class="ds-flex ds-mt-2 ds-py-1 ds-border-t ds-border-line-default-translucent justify-content-between">
+                                    <a href=" " class="ds-no-tap-higlight">
+                                       <span title=" " class="ds-inline-flex ds-items-start ds-leading-none ds-mr-4">
+                                          <span
+                                             class="ds-text-compact-xs ds-font-medium ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block pt-2">9:00
+                                             AM to 11:00 AM</span></span>
+                                    </a><a href="#" title="Register"
+                                       class="ds-inline-flex ds-items-start ds-leading-none    rounded p-1  ">
+                                       <span
+                                          class="ds-text-tight-xs   ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block text-success ">Register
+                                          <span class="bi bi-arrow-right fw-bold pt-2"></span></span></a>
+                                 </div>
                               </div>
                            </div>
                         </div>
-                     </li>
-                     <li class="card">
-                        <div style="outline:none" data-index="1" class="slick-slide slick-active" tabindex="-1" aria-hidden="false">
-                           <div>
-                              <div class="ds-p-2 ds-pb-0.5 ds-bg-fill-hsb-scorecell ds-text-compact-2xs ds-rounded-xl ds-h-[155px]" tabindex="-1" style="width:100%;display:inline-block">
-                                 <div class="ds-text-compact-xxs">
-                                    <div class="ds-relative ds-w-[288px] card scorecard"><a href=" " class="ds-no-tap-higlight">
-                                       <div class="ds-flex ds-justify-between ds-items-center d-none">
-                                          <div class="ds-truncate ">
-                                             <span class="ds-text-raw-red">
-                                                <span class="ds-text-tight-xs ds-font-bold ds-uppercase ds-leading-5">Live</span></span>
-                                                <span class="ds-text-tight-xs ds-text-typo-mid2">
-                                                   <span class="ds-text-tight-xs ds-font-medium">&nbsp;•&nbsp;2nd TEST</span>&nbsp;•&nbsp; Melbourne</span></div>
-                                          <div class="ds-leading-[0]"></div>
+                     </div>
+                  </div>
+               </li>
+               <li class="card">
+                  <div style="outline:none" data-index="1" class="slick-slide slick-active" tabindex="-1"
+                     aria-hidden="false">
+                     <div>
+                        <div
+                           class="ds-p-2 ds-pb-0.5 ds-bg-fill-hsb-scorecell ds-text-compact-2xs ds-rounded-xl ds-h-[155px]"
+                           tabindex="-1" style="width:100%;display:inline-block">
+                           <div class="ds-text-compact-xxs">
+                              <div class="ds-relative ds-w-[288px] card scorecard"><a href=" "
+                                    class="ds-no-tap-higlight">
+                                    <div class="ds-flex ds-justify-between ds-items-center d-none">
+                                       <div class="ds-truncate ">
+                                          <span class="ds-text-raw-red">
+                                             <span
+                                                class="ds-text-tight-xs ds-font-bold ds-uppercase ds-leading-5">Live</span></span>
+                                          <span class="ds-text-tight-xs ds-text-typo-mid2">
+                                             <span class="ds-text-tight-xs ds-font-medium">&nbsp;•&nbsp;2nd
+                                                TEST</span>&nbsp;•&nbsp; Melbourne</span>
                                        </div>
-                                       <div class="">
-                                          <div class="ds-flex ds-flex-col ds-mb-2 ds-mt-1 ds-space-y-1">
-                                             <div class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
-                                                <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="AUS">
-                                                   <img width="20" height="20" alt="AUS Flag" class="ds-mr-2 d-none" src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png" style="width: 20px; height: 20px;">
-                                                   <p class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate !ds-text-typo-mid3 mt-0">Super Trail</p>
-                                                </div>
-                                                <div class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap">
-                                                   <span class="ds-text-compact-xxs ds-mr-0.5"></span>
-                                                   <strong class="ds-text-typo-mid3">FEB 14<span>-</span></strong><strong class="ds-text-typo-mid3">FEB 16</strong></div>
+                                       <div class="ds-leading-[0]"></div>
+                                    </div>
+                                    <div class="">
+                                       <div class="ds-flex ds-flex-col ds-mb-2 ds-mt-1 ds-space-y-1">
+                                          <div
+                                             class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
+                                             <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="AUS">
+                                                <img width="20" height="20" alt="AUS Flag" class="ds-mr-2 d-none"
+                                                   src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png"
+                                                   style="width: 20px; height: 20px;">
+                                                <p
+                                                   class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate !ds-text-typo-mid3 mt-0">
+                                                   Super Trail</p>
                                              </div>
-                                             <div class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
-                                                <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="PAK">
-                                                   <img width="20" height="20" alt="PAK Flag" class="ds-mr-2 d-none" src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313129.logo.png" style="width: 20px; height: 20px;">
-                                                   <p class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate">Jan Khan</p>
-                                                </div>
-                                                <div class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap fadeIn-enter-done">
-                                                   <span class="ds-text-compact-xxs ds-mr-0.5">035-52345324 </span>
-                                                    </div>
+                                             <div
+                                                class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap">
+                                                <span class="ds-text-compact-xxs ds-mr-0.5"></span>
+                                                <strong class="ds-text-typo-mid3">FEB 14<span>-</span></strong><strong
+                                                   class="ds-text-typo-mid3">FEB 16</strong>
+                                             </div>
+                                          </div>
+                                          <div
+                                             class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
+                                             <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="PAK">
+                                                <img width="20" height="20" alt="PAK Flag" class="ds-mr-2 d-none"
+                                                   src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313129.logo.png"
+                                                   style="width: 20px; height: 20px;">
+                                                <p class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate">Jan
+                                                   Khan</p>
+                                             </div>
+                                             <div
+                                                class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap fadeIn-enter-done">
+                                                <span class="ds-text-compact-xxs ds-mr-0.5">035-52345324 </span>
                                              </div>
                                           </div>
                                        </div>
-                                       <p class="ds-text-tight-xs ds-truncate ds-text-typo" title="AUS vs PAK - 2nd Test"><span>National Stadium - Lahore, Punjab</span></p>
-                                       </a>
-                                       <div class="ds-flex ds-mt-2 ds-py-1 ds-border-t ds-border-line-default-translucent justify-content-between"><a href=" " class="ds-no-tap-higlight">
-                                          <span title=" " class="ds-inline-flex ds-items-start ds-leading-none ds-mr-4">
-                                             <span class="ds-text-compact-xs ds-font-medium ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block pt-2">9:00 AM to 11:00 AM</span></span>
-                                             </a><a href="#" title="Register" class="ds-inline-flex ds-items-start ds-leading-none   bg-success rounded p-1 text-white register-btn">
-                                                <span class="ds-text-tight-xs   ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block text-white">Register</span></a>
-                                                 </div>
                                     </div>
-                                    </div>
+                                    <p class="ds-text-tight-xs ds-truncate ds-text-typo" title="AUS vs PAK - 2nd Test">
+                                       <span>National Stadium - Lahore, Punjab</span></p>
+                                 </a>
+                                 <div
+                                    class="ds-flex ds-mt-2 ds-py-1 ds-border-t ds-border-line-default-translucent justify-content-between">
+                                    <a href=" " class="ds-no-tap-higlight">
+                                       <span title=" " class="ds-inline-flex ds-items-start ds-leading-none ds-mr-4">
+                                          <span
+                                             class="ds-text-compact-xs ds-font-medium ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block pt-2">9:00
+                                             AM to 11:00 AM</span></span>
+                                    </a><a href="#" title="Register"
+                                       class="ds-inline-flex ds-items-start ds-leading-none    rounded p-1  ">
+                                       <span
+                                          class="ds-text-tight-xs   ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block text-success">Register
+                                          <span class="bi bi-arrow-right fw-bold pt-2"></span></span></a>
+                                 </div>
                               </div>
                            </div>
                         </div>
-                     </li>
-                     <li class="card">
-                        <div style="outline:none" data-index="1" class="slick-slide slick-active" tabindex="-1" aria-hidden="false">
-                           <div>
-                              <div class="ds-p-2 ds-pb-0.5 ds-bg-fill-hsb-scorecell ds-text-compact-2xs ds-rounded-xl ds-h-[155px]" tabindex="-1" style="width:100%;display:inline-block">
-                                 <div class="ds-text-compact-xxs">
-                                    <div class="ds-relative ds-w-[288px] card scorecard"><a href=" " class="ds-no-tap-higlight">
-                                       <div class="ds-flex ds-justify-between ds-items-center d-none">
-                                          <div class="ds-truncate ">
-                                             <span class="ds-text-raw-red">
-                                                <span class="ds-text-tight-xs ds-font-bold ds-uppercase ds-leading-5">Live</span></span>
-                                                <span class="ds-text-tight-xs ds-text-typo-mid2">
-                                                   <span class="ds-text-tight-xs ds-font-medium">&nbsp;•&nbsp;2nd TEST</span>&nbsp;•&nbsp; Melbourne</span></div>
-                                          <div class="ds-leading-[0]"></div>
+                     </div>
+                  </div>
+               </li>
+               <li class="card">
+                  <div style="outline:none" data-index="1" class="slick-slide slick-active" tabindex="-1"
+                     aria-hidden="false">
+                     <div>
+                        <div
+                           class="ds-p-2 ds-pb-0.5 ds-bg-fill-hsb-scorecell ds-text-compact-2xs ds-rounded-xl ds-h-[155px]"
+                           tabindex="-1" style="width:100%;display:inline-block">
+                           <div class="ds-text-compact-xxs">
+                              <div class="ds-relative ds-w-[288px] card scorecard"><a href=" "
+                                    class="ds-no-tap-higlight">
+                                    <div class="ds-flex ds-justify-between ds-items-center d-none">
+                                       <div class="ds-truncate ">
+                                          <span class="ds-text-raw-red">
+                                             <span
+                                                class="ds-text-tight-xs ds-font-bold ds-uppercase ds-leading-5">Live</span></span>
+                                          <span class="ds-text-tight-xs ds-text-typo-mid2">
+                                             <span class="ds-text-tight-xs ds-font-medium">&nbsp;•&nbsp;2nd
+                                                TEST</span>&nbsp;•&nbsp; Melbourne</span>
                                        </div>
-                                       <div class="">
-                                          <div class="ds-flex ds-flex-col ds-mb-2 ds-mt-1 ds-space-y-1">
-                                             <div class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
-                                                <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="AUS">
-                                                   <img width="20" height="20" alt="AUS Flag" class="ds-mr-2 d-none" src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png" style="width: 20px; height: 20px;">
-                                                   <p class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate !ds-text-typo-mid3 mt-0">Super Trail</p>
-                                                </div>
-                                                <div class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap">
-                                                   <span class="ds-text-compact-xxs ds-mr-0.5"></span>
-                                                   <strong class="ds-text-typo-mid3">FEB 14<span>-</span></strong><strong class="ds-text-typo-mid3">FEB 16</strong></div>
+                                       <div class="ds-leading-[0]"></div>
+                                    </div>
+                                    <div class="">
+                                       <div class="ds-flex ds-flex-col ds-mb-2 ds-mt-1 ds-space-y-1">
+                                          <div
+                                             class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
+                                             <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="AUS">
+                                                <img width="20" height="20" alt="AUS Flag" class="ds-mr-2 d-none"
+                                                   src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png"
+                                                   style="width: 20px; height: 20px;">
+                                                <p
+                                                   class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate !ds-text-typo-mid3 mt-0">
+                                                   Super Trail</p>
                                              </div>
-                                             <div class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
-                                                <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="PAK">
-                                                   <img width="20" height="20" alt="PAK Flag" class="ds-mr-2 d-none" src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313129.logo.png" style="width: 20px; height: 20px;">
-                                                   <p class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate">Jan Khan</p>
-                                                </div>
-                                                <div class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap fadeIn-enter-done">
-                                                   <span class="ds-text-compact-xxs ds-mr-0.5">035-52345324 </span>
-                                                    </div>
+                                             <div
+                                                class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap">
+                                                <span class="ds-text-compact-xxs ds-mr-0.5"></span>
+                                                <strong class="ds-text-typo-mid3">FEB 14<span>-</span></strong><strong
+                                                   class="ds-text-typo-mid3">FEB 16</strong>
+                                             </div>
+                                          </div>
+                                          <div
+                                             class="ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo">
+                                             <div class="ds-flex ds-items-center ds-min-w-0 ds-mr-1" title="PAK">
+                                                <img width="20" height="20" alt="PAK Flag" class="ds-mr-2 d-none"
+                                                   src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313129.logo.png"
+                                                   style="width: 20px; height: 20px;">
+                                                <p class="ds-text-tight-s ds-font-bold ds-capitalize ds-truncate">Jan
+                                                   Khan</p>
+                                             </div>
+                                             <div
+                                                class="ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap fadeIn-enter-done">
+                                                <span class="ds-text-compact-xxs ds-mr-0.5">035-52345324 </span>
                                              </div>
                                           </div>
                                        </div>
-                                       <p class="ds-text-tight-xs ds-truncate ds-text-typo" title="AUS vs PAK - 2nd Test"><span>National Stadium - Lahore, Punjab</span></p>
-                                       </a>
-                                        <div class="ds-flex ds-mt-2 ds-py-1 ds-border-t ds-border-line-default-translucent justify-content-between"><a href=" " class="ds-no-tap-higlight">
-                                          <span title=" " class="ds-inline-flex ds-items-start ds-leading-none ds-mr-4">
-                                             <span class="ds-text-compact-xs ds-font-medium ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block pt-2">9:00 AM to 11:00 AM</span></span>
-                                             </a><a href="#" title="Register" class="ds-inline-flex ds-items-start ds-leading-none   bg-success rounded p-1  register-btn">
-                                                <span class="ds-text-tight-xs   ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block text-white">Register</span></a>
-                                        </div>
                                     </div>
-                                    </div>
-                                </div>
-                            </div>
+                                    <p class="ds-text-tight-xs ds-truncate ds-text-typo" title="AUS vs PAK - 2nd Test">
+                                       <span>National Stadium - Lahore, Punjab</span></p>
+                                 </a>
+                                 <div
+                                    class="ds-flex ds-mt-2 ds-py-1 ds-border-t ds-border-line-default-translucent justify-content-between">
+                                    <a href=" " class="ds-no-tap-higlight">
+                                       <span title=" " class="ds-inline-flex ds-items-start ds-leading-none ds-mr-4">
+                                          <span
+                                             class="ds-text-compact-xs ds-font-medium ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block pt-2">9:00
+                                             AM to 11:00 AM</span></span>
+                                    </a><a href="#" title="Register"
+                                       class="ds-inline-flex ds-items-start ds-leading-none   rounded p-1  ">
+                                       <span
+                                          class="ds-text-tight-xs   ds-text-typo hover:ds-underline hover:ds-decoration-ui-stroke ds-block text-success">Register
+                                          <span class="bi bi-arrow-right fw-bold pt-2"></span></span></a>
+                                 </div>
+                              </div>
+                           </div>
                         </div>
-                    </li>
-                    <!-- Carousel items here -->
-                </ul>
-                <i id="right" class="bi bi-chevron-right"></i>
+                     </div>
+                  </div>
+               </li>
+            </ul>
+            <i id="right" class="bi bi-chevron-right"></i>
+         </div>
+
+
+      </div>
+   </div>
+   <!-- ======= Header ======= -->
+   <header id="header" class="d-flex align-items-center">
+      <div class="container d-flex justify-content-between align-items-center">
+         <div class="logo">
+            <h1 class="logo"><a href="index.html">DIGI cricket</a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+         </div>
+      </div>
+   </header>
+   <!-- End Header -->
+   <!-- Player Registration Form -->
+   <div class="container mt-5">
+      <div class="row justify-content-center">
+         <div class="col-lg-8">
+            <div class="card">
+               <div class="card-header text-center">
+                  Player Registration
+               </div>
+               <div class="pt-0  d-block">
+                  <form>
+                     <div class="col-md-12 p-4  border-1 rounded bg-white   ">
+
+                        <div class="ds-grid lg:ds-grid-cols-3 ds-grid-cols-2 ds-gap-4 ds-mb-8">
+
+                           <div class="ds-col-span-2 lg:ds-col-span-1">
+                              <p class="ds-text-tight-s ds-font-regular ds-uppercase ds-text-typo-mid3">Full Name</p>
+                              <span class="ds-text-title-xs ds-font-bold ds-text-typo">
+                                 <input type="text" placeholder="David Andrew Warner"
+                                    class="ds-text-compact-xs form-control form-control-sm" />
+
+                              </span>
+                           </div>
+                           <div>
+                              <p class="ds-text-tight-s ds-font-regular ds-uppercase ds-text-typo-mid3">Born</p>
+                              <span class="ds-text-title-xs ds-font-bold ds-text-typo">
+                                 <input type="text" placeholder="October 27, 1986, Paddington, New South Wales"
+                                    class="ds-text-compact-xs form-control form-control-sm" />
+
+                              </span>
+                           </div>
+                           <div>
+                              <p class="ds-text-tight-s ds-font-regular ds-uppercase ds-text-typo-mid3">Age</p>
+                              <span class="ds-text-title-xs ds-font-bold ds-text-typo">
+                                 <input type="text" placeholder="37y 82d"
+                                    class="ds-text-compact-xs form-control form-control-sm" />
+
+                              </span>
+                           </div>
+                           <div>
+                              <p class="ds-text-tight-s ds-font-regular ds-uppercase ds-text-typo-mid3">Nicknames</p>
+                              <span class="ds-text-title-xs ds-font-bold ds-text-typo">
+                                 <input type="text" placeholder="Lloyd"
+                                    class="ds-text-compact-xs form-control form-control-sm" />
+
+                              </span>
+                           </div>
+                           <div>
+                              <p class="ds-text-tight-s ds-font-regular ds-uppercase ds-text-typo-mid3">Batting Style
+                              </p>
+                              <span class="ds-text-title-xs ds-font-bold ds-text-typo">
+                                 <input type="text" placeholder="Left hand Bat"
+                                    class="ds-text-compact-xs form-control form-control-sm" />
+
+                              </span>
+                           </div>
+                           <div>
+                              <p class="ds-text-tight-s ds-font-regular ds-uppercase ds-text-typo-mid3">Bowling Style
+                              </p>
+                              <span class="ds-text-title-xs ds-font-bold ds-text-typo">
+                                 <input type="text" placeholder="Legbreak"
+                                    class="ds-text-compact-xs form-control form-control-sm" />
+
+                              </span>
+                           </div>
+                           <div>
+                              <p class="ds-text-tight-s ds-font-regular ds-uppercase ds-text-typo-mid3">Playing Role</p>
+                              <span class="ds-text-title-xs ds-font-bold ds-text-typo">
+                                 <input type="text" placeholder="Opening Batter"
+                                    class="ds-text-compact-xs form-control form-control-sm" />
+
+                              </span>
+                           </div>
+                           <div>
+                              <p class="ds-text-tight-s ds-font-regular ds-uppercase ds-text-typo-mid3">Height</p>
+                              <span class="ds-text-title-xs ds-font-bold ds-text-typo">
+                                 <input type="text" placeholder="1.7 m"
+                                    class="ds-text-compact-xs form-control form-control-sm" /></span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="button-container">
+                        <button type="button" class="btn btn-custom">Save</button>
+                        <button type="button" class="btn btn-custom-cancel">Cancel</button>
+                     </div>
+                  </form>
+               </div>
             </div>
-        </div>
-    </div>
-        <!-- ======= Header ======= -->
-        <header id="header" class="d-flex align-items-center">
-            <div class="container d-flex justify-content-between align-items-center">
-                <div class="logo">
-                    <h1 class="logo"><a href="index.html">DIGI cricket</a></h1>
-                    <!-- Uncomment below if you prefer to use an image logo -->
-                    <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-                </div>
-            </div>
-        </header>
-        <!-- End Header -->
-    <!-- Player Registration Form -->
-    <div class="container mt-5">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div class="card">
-                    <div class="card-header text-center">
-                        Player Registration
-                    </div>
-                    <div class="pt-0  d-block">
-                        <form>
-                            <div class="col-md-12 p-4  border-1 rounded bg-white   ">
-                    
-                                <div class="ds-grid lg:ds-grid-cols-3 ds-grid-cols-2 ds-gap-4 ds-mb-8">
-                                  
-                                   <div class="ds-col-span-2 lg:ds-col-span-1">
-                                      <p class="ds-text-tight-s ds-font-regular ds-uppercase ds-text-typo-mid3">Full Name</p>
-                                      <span class="ds-text-title-xs ds-font-bold ds-text-typo">
-                                         <input type="text" placeholder="David Andrew Warner" class="ds-text-compact-xs form-control form-control-sm" />
-                                        
-                                      </span>
-                                   </div>
-                                   <div>
-                                      <p class="ds-text-tight-s ds-font-regular ds-uppercase ds-text-typo-mid3">Born</p>
-                                      <span class="ds-text-title-xs ds-font-bold ds-text-typo">
-                                         <input type="text" placeholder="October 27, 1986, Paddington, New South Wales" class="ds-text-compact-xs form-control form-control-sm" />
-                                        
-                                      </span>
-                                   </div>
-                                   <div>
-                                      <p class="ds-text-tight-s ds-font-regular ds-uppercase ds-text-typo-mid3">Age</p>
-                                      <span class="ds-text-title-xs ds-font-bold ds-text-typo">
-                                         <input type="text" placeholder="37y 82d" class="ds-text-compact-xs form-control form-control-sm" />
-                                        
-                                      </span>
-                                   </div>
-                                   <div>
-                                      <p class="ds-text-tight-s ds-font-regular ds-uppercase ds-text-typo-mid3">Nicknames</p>
-                                      <span class="ds-text-title-xs ds-font-bold ds-text-typo">
-                                         <input type="text" placeholder="Lloyd" class="ds-text-compact-xs form-control form-control-sm" />
-                                         
-                                      </span>
-                                   </div>
-                                   <div>
-                                      <p class="ds-text-tight-s ds-font-regular ds-uppercase ds-text-typo-mid3">Batting Style</p>
-                                      <span class="ds-text-title-xs ds-font-bold ds-text-typo">
-                                         <input type="text" placeholder="Left hand Bat" class="ds-text-compact-xs form-control form-control-sm" />
-                                        
-                                      </span>
-                                   </div>
-                                   <div>
-                                      <p class="ds-text-tight-s ds-font-regular ds-uppercase ds-text-typo-mid3">Bowling Style</p>
-                                      <span class="ds-text-title-xs ds-font-bold ds-text-typo">
-                                         <input type="text" placeholder="Legbreak" class="ds-text-compact-xs form-control form-control-sm" />
-                                         
-                                      </span>
-                                   </div>
-                                   <div>
-                                      <p class="ds-text-tight-s ds-font-regular ds-uppercase ds-text-typo-mid3">Playing Role</p>
-                                      <span class="ds-text-title-xs ds-font-bold ds-text-typo">
-                                         <input type="text" placeholder="Opening Batter" class="ds-text-compact-xs form-control form-control-sm" />
-                                        
-                                      </span>
-                                   </div>
-                                <div>
-                                      <p class="ds-text-tight-s ds-font-regular ds-uppercase ds-text-typo-mid3">Height</p>
-                                      <span class="ds-text-title-xs ds-font-bold ds-text-typo">
-                                         <input type="text" placeholder="1.7 m" class="ds-text-compact-xs form-control form-control-sm" /></span></div></div>
-                            </div> 
-                            <div class="button-container">
-                                <button type="button" class="btn btn-custom">Save</button>
-                                <button type="button" class="btn btn-custom-cancel">Cancel</button>
-                              </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Player Registration Form -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+         </div>
+      </div>
+   </div>
+   <!-- End Player Registration Form -->
+   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
