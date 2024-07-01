@@ -1966,6 +1966,7 @@ background-color: rgb(249 249 251 / 100%);
   font-weight: 500;
 }
 
+ /*Trial Details */
 .left-wrapper .accordion-button:not(.collapsed),.trial-accordion .accordion-button:not(.collapsed){
   color: #000000 !important;
     /* background-color: #f0f0f0 !important; */
@@ -2027,12 +2028,9 @@ background-color: rgb(249 249 251 / 100%);
 .panel-body {
   padding: 15px;
 }
-.trial-accordion .nav-link{color:#000;font-size: 0.875rem}
-.trial-accordion .nav-tabs .nav-link.active{color:#00a8f4;border-bottom: 4px solid #00a8f4; font-size: 0.875rem;
-  padding: 10px;}
+.trial-accordion .nav-link{color:#212529;font-size: 0.875rem;}
+.trial-accordion .nav-tabs .nav-link.active{color:#00a8f4;border-bottom: 4px solid #00a8f4;font-size: 0.875rem;}
 .trial-accordion .nav-tabs .nav-link{border:none}
-
-
 .form-box{
   position: relative;
 }
