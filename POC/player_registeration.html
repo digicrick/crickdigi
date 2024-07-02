@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -17,7 +17,7 @@
    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
    <link href="assets/css/style.css" rel="stylesheet">
-   <link href="assets/css/style2.css" rel="stylesheet">
+   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 
@@ -524,15 +524,37 @@
       </div>
    </div>
    <!-- ======= Header ======= -->
-   <header id="header" class="d-flex align-items-center p-4">
-      <div class="container d-flex justify-content-between align-items-center">
-         <div class="logo">
-            <h1 class="logo"><a href="index.html">DIGI cricket</a></h1>
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center d-none  d-sm-block mb-2">
+      <div class="container d-flex align-items-center justify-content-start">
+         <h1 class="logo"><a href="index.html">DIGI cricket</a></h1>
+         <!-- Uncomment below if you prefer to use an image logo -->
+         <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
+         <nav id="navbar" class="navbar ps-5">
+            <ul>
+               <li><a class="nav-link" href="Details.html">Home</a></li>
+               <li><a class="nav-link" href="eventList.html">Events</a></li>
+                 
+                   <li><a class="nav-link" href="profile.html">Player Profile</a></li>
+                 <li><a class="nav-link" href="sponser.html">Sponser</a></li>
+                 <li><a class="nav-link" href="fascilitator.html">Fascilitator</a></li>
+                 <li><a class="nav-link" href="event-registration.html">Event Register</a></li>
+
+            </ul> 
+            <i class="bi bi-list mobile-nav-toggle"></i> </nav>
+         <!-- .navbar -->
+         <span id="menubar-icons"class="  d-flex flex-row-reverse">
+         <div class="social-links d-none d-md-flex align-items-center">
+            <a href="#" class="fs-13 ">Edition IN</a>
+            <a href="#" class="twitter"><i class="bi bi-bell-fill"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-translate"></i></a>
+            <a href="#" class="instagram"><i class="bi bi bi-grid-3x2-gap-fill"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-search"></i></i></a>
          </div>
       </div>
+      </div>
    </header>
+   <!-- End Header -->
    <!-- End Header -->
    <!-- Player Registration Form -->
    <main id="main" data-aos="fade-up">
@@ -543,11 +565,11 @@
                <div class="row">
                   <div class="col-md-12 col-lg-12 bg-white rounded shadow p-0">
                      <div class="bg-light py-2 px-3">
-                        <h6 class="  ds-font-bold">Player Registeration </h6>
+                        <h6 class="  ds-font-bold">Player Registration </h6>
                      </div>
                      <div class="row m-3">
-                        <div class=" col-md-12 col-lg-12  col-6 col-sm-12">
-
+                        <!-- changed the column arrangement below -->
+                        <div class=" col-md-12 col-lg-12 col-sm-12">
                            <div class="mb-3 row">
                               <label for="eventype" class="col-lg-3 col-md-3 ds-text-compact-xs">Full Name</label>
                               <div class="col-sm-8 col-lg-6">
@@ -597,7 +619,6 @@
                                     placeholder="Opening Batter">
                               </div>
                            </div>
-                           
 
                            <div class="mb-3 row">
                               <label for="eventype" class="col-lg-3 col-md-3 ds-text-compact-xs">Height
@@ -606,9 +627,6 @@
                                  <input type="text" class="form-control form-control-sm" id=" " placeholder="1.7m">
                               </div>
                            </div>
-                        </div>
-
-                        <div class=" col-md-6 col-lg-6  col-6 col-sm-6  ">
                         </div>
                         <div class="col-md-12">
                            <div class="ds-flex  justify-content-end">
@@ -623,8 +641,8 @@
       </section>
    </main>
    <!-- End Player Registration Form -->
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
+   <!-- ======= Footer ======= -->
+   <footer id="footer">
       <div class="copyright-area">
          <div class=" ">
             <div class="row">
@@ -649,9 +667,10 @@
             </div>
          </div>
       </div>
-      </footer>  
+   </footer>
    <!-- End Footer -->
-   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script src="assets/js/script.js"></script>
+  
 </body>
 
 </html>
