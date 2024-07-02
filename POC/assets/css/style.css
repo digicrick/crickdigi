@@ -2122,4 +2122,9 @@ background-color: rgb(249 249 251 / 100%);
 .player-card-text h4 span{
   color:whitesmoke;
 }
+.image-xs{
+  width: 20px;
+  height: 16px;
+  padding-right: 5px;
+}
 
