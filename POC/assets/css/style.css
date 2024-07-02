@@ -629,7 +629,7 @@ input[type="text"][disabled]{
 background: #ddd;
 cursor: default;
 }
-input[type="text"]{
+/* input[type="text"]{
  
   border-radius: 0;
   background-color: #fff ;
@@ -650,7 +650,7 @@ input[type="text"]{
   box-sizing: border-box;
   transition: box-shadow 0.45s, border-color 0.45s ease-in-out;
 
-}
+} */
 .bi{color:#8a8a8a  }
 section {
   padding: 0px 0 20px 0px;
@@ -1097,28 +1097,7 @@ width:300px;
   text-decoration: underline;
 }
 
-.btn{
-  margin-top: 5px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-.btn a i{
-  margin-right: 9px;
-}
-.btn a{
-  border-radius: 20px;
-  color: #8b8b8b;
-  padding: 8px 20px;
-  font-size: 0.9rem;
-}
-.btn a:hover{
-  color: #fff;
-  box-shadow: 2px 5px 15px rgba(80,123,252,0.05);
-  background-color: #507bfc;
-  transition: all ease 0.5s;
-}
+
 
 .card {
 border: none;
