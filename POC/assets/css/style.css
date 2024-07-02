@@ -2071,8 +2071,6 @@ background-color: rgb(249 249 251 / 100%);
 .form-box{
   position: relative;
 }
-<<<<<<< Updated upstream
-=======
 
 .dropdown-check-list .anchor {
   cursor: pointer;
@@ -2121,8 +2119,12 @@ background-color: rgb(249 249 251 / 100%);
 .player-card{
   background-color:#0398dc;
 }
-.player-card-text h4, span{
+.player-card-text h4 span{
   color:whitesmoke;
 }
 
->>>>>>> Stashed changes
+/* style for small images */
+.image-xs{
+  width:16px; height:16px; margin-right: 5px;
+}
+
