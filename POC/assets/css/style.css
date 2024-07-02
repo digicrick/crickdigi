@@ -2035,9 +2035,8 @@ background-color: rgb(249 249 251 / 100%);
 
 .panel-info>.panel-heading {
   color: #212529;
-    background-color: #f0f0f0;
-    border-color: #dee2e6;
-}
+    background-color: rgb(215 238 254);
+  }
 .panel-heading {
   padding: 10px 15px;
   border-bottom: 1px solid transparent;
