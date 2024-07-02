@@ -2123,8 +2123,3 @@ background-color: rgb(249 249 251 / 100%);
   color:whitesmoke;
 }
 
-/* style for small images */
-.image-xs{
-  width:16px; height:16px; margin-right: 5px;
-}
-
