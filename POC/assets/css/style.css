@@ -215,7 +215,7 @@ h6 {
 
 .navbar>ul>li {
   white-space: nowrap;
-  padding: 14px;
+  padding: 15px 7px;
 }
 
 .navbar>ul>li:hover{
@@ -228,7 +228,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 0 3px;
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
