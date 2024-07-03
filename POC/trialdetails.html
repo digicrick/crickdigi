@@ -379,12 +379,13 @@
             <div class="container">
                <div class="container-fluid">
                   <div class="row">
-                     <div class="col-md-12 col-lg-3 bg-white shadow-sm rounded left-image p-2 mb-3 " >
+                     <div class="col-md-12 col-lg-3 bg-white shadow-sm rounded left-image p-2 mb-3 ">
+                        
                         <div class="col-md-12     ">
                               <div class=" ">
                                 <div class="px-1 pb-2 w-100">
                                  <select class="form-select form-select-sm " aria-label=".form-select-sm">
-                                    <option selected>Select a location</option>
+                                    <option selected="">Select a location</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                     <option value="3">3</option>
@@ -397,7 +398,7 @@
                            <div class=" mt-2">
                               <div class="px-1 w-100">
                               <select class="form-select form-select-sm " aria-label=".form-select-sm">
-                                 <option selected>  Select</option>
+                                 <option selected="">  Select</option>
                                  <option value="1">1</option>
                                  <option value="2">2</option>
                                  <option value="3">3</option>
@@ -418,19 +419,19 @@
                                <div class="accordion-body">
                                  <div class=" ms-2">
                                     <div class="form-check mt-2 col-md-3 col-lg-6  col-4 col-sm-4">
-                                       <input class="form-check-input" type="checkbox" name="inlineCheckbox" id="inlineCheckbox1" >
+                                       <input class="form-check-input" type="checkbox" name="inlineCheckbox" id="inlineCheckbox1">
                                        <label class=" ds-text-compact-xs" for="inlineCheckbox1">
                                          Basic
                                        </label>
                                      </div>
                                      <div class="form-check mt-2 col-md-3 col-lg-6  col-4 col-sm-4">
-                                       <input class="form-check-input" type="checkbox" name="inlineCheckbox" id="inlineCheckbox2"  >
+                                       <input class="form-check-input" type="checkbox" name="inlineCheckbox" id="inlineCheckbox2">
                                        <label class=" ds-text-compact-xs" for="inlineCheckbox2">
                                          Advanced
                                        </label>
                                      </div>
                                      <div class="form-check mt-2 col-md-3 col-lg-6  col-4 col-sm-4">
-                                       <input class="form-check-input" type="checkbox" name="inlineCheckbox" id="inlineCheckbox3"  >
+                                       <input class="form-check-input" type="checkbox" name="inlineCheckbox" id="inlineCheckbox3">
                                        <label class=" ds-text-compact-xs" for="inlineCheckbox3">
                                          Professional
                                        </label>
@@ -452,7 +453,7 @@
                                <div class="accordion-body">
                                           <div class="  ms-2">
                                        <div class="form-check mt-2 col-md-3 col-lg-6  col-4 col-sm-4">
-                                         <input class="form-check-input" type="checkbox" name="inlineCheckbox" id="inlineCheckbox7" >
+                                         <input class="form-check-input" type="checkbox" name="inlineCheckbox" id="inlineCheckbox7">
                                           <label class=" ds-text-compact-xs" for="inlineCheckbox7">
                                              General
                                           </label>
@@ -495,39 +496,102 @@
                   </div>
                      <div class="col-md-12 col-lg-9">
                         <div class="row">
-                           <div class="col-md-12 col-lg-12 col-sm-12 mb-3  ">
-                              <div class="p-0">
-                                 <div class=" ">
-                                    <div class="panel panel-info">
-                                        <div class="panel-heading">
-                                          <h3 class="panel-title">Player Profile</h3>
-                                        </div>
-                                           <div class="panel-body">
-                                          <div class="row">
-                                            <div class="col-xs-12 col-md-2 col-lg-2 pl-0 bg-light shadow-sm" align="center">
-                                              <img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_640,q_50/lsci/db/PICTURES/CMS/316500/316589.png" class="img-responsive img-rounded" alt="User image">
-                                            <span class="ds-text-compact-xs fw-bold">David Warner</span>
-                                             </div>
-                                  
-                                            <div class="col-xs-12 col-md-4 col-lg-4 pt-2">  
-                                              <span class=" ds-text-compact-xs d-block pb-3"><span class="fw-bold pe-2">Balls:</span>56</span>
-                                              <span class=" ds-text-compact-xs d-block pb-3"><span class="fw-bold pe-2">Speed:</span>Avg speed 133 KM/Hr</span>
-                                              <span class=" ds-text-compact-xs d-block pb-3"><span class="fw-bold pe-2">Accuracy:</span>30%</span>
-                                              <span class=" ds-text-compact-xs d-block pb-3"><span class="fw-bold pe-2">Variations:</span> 56%</span>
-                                                                             </div>
-
-
-                                                                             <div class="col-xs-12 col-md-4 col-lg-4 pt-2">  
-                                                                              <span class=" ds-text-compact-xs d-block pb-3"><span class="fw-bold pe-2">Date of Birth</span>--</span>
-                                                                              <span class=" ds-text-compact-xs d-block pb-3"><span class="fw-bold pe-2">Nicknames</span>--</span>
-                                                                              <span class=" ds-text-compact-xs d-block pb-3"><span class="fw-bold pe-2">Playing Role</span>--</span>
-                                                                              <span class=" ds-text-compact-xs d-block pb-3"><span class="fw-bold pe-2">Height</span> --</span>
-                                                                                                             </div>
+                           <div class="col-md-12 col-lg-12 col-sm-12">
+                              <div class="p-0 trialdetails"> 
+                                    <div class="row ">                          
+                                      <!-- Player Profile Card -->
+                                      <div class="col-xxl-4 col-md-6">
+                                        <div class="card info-card sales-card">    
+                                          <div class="card-body">
+                                            <h5 class="card-title">Player Profile</h5>                          
+                                            <div class="d-flex align-items-center">
+                                              <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                                <img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_640,q_50/lsci/db/PICTURES/CMS/316500/316589.png" class="img-responsive img-rounded" alt="User image">
+                                              </div>
+                                              <div class="ps-3">
+                                                <h6>David Warner</h6>
+                                                <span class="text-success small pt-1 fw-bold">Australia</span> | <span class="text-muted small pt-2 ps-1">Lefthand Batsman</span>                          
+                                              </div>
+                                            </div>
                                           </div>
+                                                                  </div>
+                                      </div><!-- End Player Profile Card -->
+                          
+                                      <!-- Player Info Card -->
+                                      <div class="col-xxl-8 col-md-8">
+                                       <div class="row">
+                                         
+                                           <div class="col-md-3 shadow-sm bg-white rounded p-1 mx-2 mb-2">
+                                             <div class="card-small p-0">
+                                                <div class="d-flex align-items-center"> <img src="images/cricket-ball.png" class="i-icon">
+                                                <span class="  px-2   ds-text-compact-s ">Balls</span></div>
+                                                <div class="ps-4 ">
+                                                   <span class="text-success small pt-1   fw-bold">56</span> | <span class="text-muted small ds-text-compact-xxs pt-2 title-text ">Balls</span>   
+                                            <div class="ds-text-compact-xxs pt-1 title-text">Leftarm Bowling                           
+                                               </div>
+                                              </div>  </div>
+                                           </div>
+                                           <div class="col-md-3 shadow-sm bg-white rounded p-1 mx-2 mb-2">
+                                             <div class="card-small p-0">
+                                            <div class="d-flex align-items-center"> <img src="images/running.png" class="i-icon">
+                                            <span class="  px-2   ds-text-compact-s">Speed</span></div>
+                                            <div class="ps-4 ">
+                                             <span class="text-success small pt-1 fw-bold">142.2</span> | <span class="text-muted small ds-text-compact-xxs pt-2 title-text">Km/Hr</span>   
+                                          <div class="ds-text-compact-xxs pt-1 title-text ">Average Speed                           
+                                         </div>
                                         </div>
-                                                                         </div>
-                                   
-                                                                         <div class="col-lg-12 trial-accordion">
+                                              </div>
+                                             </div>
+                                          <div class="col-md-3 shadow-sm bg-white rounded p-1 mx-2 mb-2"> 
+                                          <div class="card-small p-0">
+                                             <div class="d-flex align-items-center"> <img src="images/accuracy.png" class="i-icon">
+                                             <span class=" px-2   ds-text-compact-s">Accuracy</span></div>
+
+                                             <div class="ps-4 ">
+                                                <span class="text-success small pt-1 fw-bold">30</span> | <span class="text-muted small ds-text-compact-xxs pt-2 title-text">Percent</span>   
+                                            <div class="ds-text-compact-xxs pt-1 title-text">Accuracy Percentage                           
+                                            </div>
+                                           </div>
+                                               </div>
+                                             </div>
+                                             <div class="col-md-3 shadow-sm bg-white rounded p-1 mx-2 mb-2">
+                                                <div class="card-small p-0">
+                                                   <div class="d-flex align-items-center"> <img src="images/run.png" class="i-icon">
+                                                   <span class="  px-2   ds-text-compact-s">Variations</span></div>
+                                                   <div class="ps-4 ">
+                                                      <span class="text-success small pt-1 fw-bold">56</span> | <span class="text-muted small ds-text-compact-xxs pt-2 title-text ">%</span>   
+                                                       <div class="ds-text-compact-xxs pt-1 title-text">Leftarm Variations                           
+                                                  </div>
+                                                 </div>  </div>
+                                              </div>
+                                              <div class="col-md-3 shadow-sm bg-white rounded p-1 mx-2 mb-2">
+                                                <div class="card-small p-0">
+                                                   <div class="d-flex align-items-center"> <img src="images/consistent.png" class="i-icon">
+                                                   <span class="  px-2   ds-text-compact-s">Consistency</span></div>
+                                                   <div class="ps-4 ">
+                                                      <span class="text-success small pt-1 fw-bold">Net</span> | <span class="text-muted small ds-text-compact-xxs pt-2 title-text">Total</span>   
+                                                                                                  <div class="ds-text-compact-xxs pt-1 title-text">Bowling Consistency                           
+                                                  </div>
+                                                 </div>  </div>
+                                              </div>
+                                              <div class="col-md-3 shadow-sm bg-white rounded p-1 mx-2 mb-2">
+                                                <div class="card-small p-0">
+                                                   <div class="d-flex align-items-center"> <img src="images/cricket-ball.png" class="i-icon">
+                                                   <span class="  px-2   ds-text-compact-s">Balls</span></div>
+                                                   <div class="ps-4 ">
+                                                      <span class="text-success small pt-1 fw-bold">56</span> | <span class="text-muted small ds-text-compact-xxs pt-2 title-text ">Balls</span>   
+                                                                                                  <div class="ds-text-compact-xxs pt-1 title-text">Leftarm Bowling                           
+                                                  </div>
+                                                 </div>  </div>
+                                              </div>
+                                        </div>
+                                       </div>
+                                        
+                                      </div><!-- End Player Info Card -->
+                                                                <!-- Trial Info Card -->
+                                     <!-- End Player Info Card -->
+                                    </div>
+                                                                           <div class="col-lg-12 trial-accordion mt-3">
                                                                            <div class="accordion accordion-flush" id="accordionFlushExample">
                                                                              <div class="accordion-item">
                                                                                <h2 class="accordion-header">
@@ -545,10 +609,10 @@
                                                                                       <nav>
                                                                                          <div class="nav nav-tabs mb-0" id="nav-tab" role="tablist">
                                                                                             <button class="nav-link active" id="nav-data-tab" data-bs-toggle="tab" data-bs-target="#nav-data" type="button" role="tab" aria-controls="nav-data" aria-selected="true">Data</button>
-                                                                                            <button class="nav-link" id="nav-visuals-tab" data-bs-toggle="tab" data-bs-target="#nav-visuals" type="button" role="tab" aria-controls="nav-visuals" aria-selected="false">Visuals</button>
-                                                                                            <button class="nav-link" id="nav-video-tab" data-bs-toggle="tab" data-bs-target="#nav-video" type="button" role="tab" aria-controls="nav-video" aria-selected="false">Videos</button>
-                                                                                            <button class="nav-link" id="nav-images-tab" data-bs-toggle="tab" data-bs-target="#nav-images" type="button" role="tab" aria-controls="nav-images" aria-selected="false">Images</button>
-                                                                                            <button class="nav-link" id="nav-comments-tab" data-bs-toggle="tab" data-bs-target="#nav-comments" type="button" role="tab" aria-controls="nav-comments" aria-selected="false">Comments</button>
+                                                                                            <button class="nav-link" id="nav-visuals-tab" data-bs-toggle="tab" data-bs-target="#nav-visuals" type="button" role="tab" aria-controls="nav-visuals" aria-selected="false" tabindex="-1">Visuals</button>
+                                                                                            <button class="nav-link" id="nav-video-tab" data-bs-toggle="tab" data-bs-target="#nav-video" type="button" role="tab" aria-controls="nav-video" aria-selected="false" tabindex="-1">Videos</button>
+                                                                                            <button class="nav-link" id="nav-images-tab" data-bs-toggle="tab" data-bs-target="#nav-images" type="button" role="tab" aria-controls="nav-images" aria-selected="false" tabindex="-1">Images</button>
+                                                                                            <button class="nav-link" id="nav-comments-tab" data-bs-toggle="tab" data-bs-target="#nav-comments" type="button" role="tab" aria-controls="nav-comments" aria-selected="false" tabindex="-1">Comments</button>
                                                                                          
                                                                                           </div>
                                                                                       </nav>
@@ -3512,7 +3576,7 @@
                                                                                                                   <div class="ds-relative"><img alt="David Warner was back in green for Sydney Thunder" class="ds-rounded-xl" src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_50/lsci/db/PICTURES/CMS/373900/373913.jpg"></div>
                                                                                                                   <div class="">
                                                                                                                      <div class="ds-flex ds-flex-col">
-                                                                                                                        <div class="ds-leading-[0] ds-text-typo-mid3"><span class="ds-text-compact-xs"><span class="ds-text-typo">David Warner was back in green for Sydney Thunder</span></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><time>Jan 12, 2024</time></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><span>Getty Images</span></span></div>
+                                                                                                                        <div class="ds-leading-[0] ds-text-typo-mid3"><span class="ds-text-compact-xs"><span class="ds-text-typo">David Warner was back in green for Sydney Thunder</span></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><time>Jan 12, 2024</time></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"></span></div>
                                                                                                                      </div>
                                                                                                                   </div>
                                                                                                                </div>
@@ -3526,7 +3590,7 @@
                                                                                                                   <div class="ds-relative"><img alt="David Warner celebrates with Steven Smith after Australia's victory" class="ds-rounded-xl" src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_50/lsci/db/PICTURES/CMS/373600/373683.jpg"></div>
                                                                                                                   <div class="">
                                                                                                                      <div class="ds-flex ds-flex-col">
-                                                                                                                        <div class="ds-leading-[0] ds-text-typo-mid3"><span class="ds-text-compact-xs"><span class="ds-text-typo">David Warner celebrates with Steven Smith after Australia's victory</span></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><time>Jan 06, 2024</time></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><span>Getty Images</span></span></div>
+                                                                                                                        <div class="ds-leading-[0] ds-text-typo-mid3"><span class="ds-text-compact-xs"><span class="ds-text-typo">David Warner celebrates with Steven Smith after Australia's victory</span></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><time>Jan 06, 2024</time></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"></span></div>
                                                                                                                      </div>
                                                                                                                   </div>
                                                                                                                </div>
@@ -3540,7 +3604,7 @@
                                                                                                                   <div class="ds-relative"><img alt="David Warner gets a standing ovation as he walks off in his farewell Test" class="ds-rounded-xl" src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_50/lsci/db/PICTURES/CMS/373600/373680.jpg"></div>
                                                                                                                   <div class="">
                                                                                                                      <div class="ds-flex ds-flex-col">
-                                                                                                                        <div class="ds-leading-[0] ds-text-typo-mid3"><span class="ds-text-compact-xs"><span class="ds-text-typo">David Warner gets a standing ovation as he walks off in his farewell Test</span></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><time>Jan 06, 2024</time></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><span>Getty Images</span></span></div>
+                                                                                                                        <div class="ds-leading-[0] ds-text-typo-mid3"><span class="ds-text-compact-xs"><span class="ds-text-typo">David Warner gets a standing ovation as he walks off in his farewell Test</span></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><time>Jan 06, 2024</time></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"></span></div>
                                                                                                                      </div>
                                                                                                                   </div>
                                                                                                                </div>
@@ -3554,7 +3618,7 @@
                                                                                                                   <div class="ds-relative"><img alt="David Warner acknowledges the crowd in his farewell Test" class="ds-rounded-xl" src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_50/lsci/db/PICTURES/CMS/373600/373677.jpg"></div>
                                                                                                                   <div class="">
                                                                                                                      <div class="ds-flex ds-flex-col">
-                                                                                                                        <div class="ds-leading-[0] ds-text-typo-mid3"><span class="ds-text-compact-xs"><span class="ds-text-typo">David Warner acknowledges the crowd in his farewell Test</span></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><time>Jan 06, 2024</time></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><span>Getty Images</span></span></div>
+                                                                                                                        <div class="ds-leading-[0] ds-text-typo-mid3"><span class="ds-text-compact-xs"><span class="ds-text-typo">David Warner acknowledges the crowd in his farewell Test</span></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><time>Jan 06, 2024</time></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"></span></div>
                                                                                                                      </div>
                                                                                                                   </div>
                                                                                                                </div>
@@ -3571,7 +3635,7 @@
                                                                                                                   <div class="ds-relative"><img alt="David Warner's helicopter lands on the SCG outfield" class="ds-rounded-xl" src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_50/lsci/db/PICTURES/CMS/373800/373883.jpg"></div>
                                                                                                                   <div class="">
                                                                                                                      <div class="ds-flex ds-flex-col">
-                                                                                                                        <div class="ds-leading-[0] ds-text-typo-mid3"><span class="ds-text-compact-xs"><span class="ds-text-typo">David Warner's helicopter lands on the SCG outfield</span></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><time>Jan 12, 2024</time></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><span>Getty Images</span></span></div>
+                                                                                                                        <div class="ds-leading-[0] ds-text-typo-mid3"><span class="ds-text-compact-xs"><span class="ds-text-typo">David Warner's helicopter lands on the SCG outfield</span></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><time>Jan 12, 2024</time></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"></span></div>
                                                                                                                      </div>
                                                                                                                   </div>
                                                                                                                </div>
@@ -3585,7 +3649,7 @@
                                                                                                                   <div class="ds-relative"><img alt="David Warner says goodbye to the SCG fans after his last Test innings" class="ds-rounded-xl" src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_50/lsci/db/PICTURES/CMS/373600/373681.jpg"></div>
                                                                                                                   <div class="">
                                                                                                                      <div class="ds-flex ds-flex-col">
-                                                                                                                        <div class="ds-leading-[0] ds-text-typo-mid3"><span class="ds-text-compact-xs"><span class="ds-text-typo">David Warner says goodbye to the SCG fans after his last Test innings</span></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><time>Jan 06, 2024</time></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><span>Getty Images</span></span></div>
+                                                                                                                        <div class="ds-leading-[0] ds-text-typo-mid3"><span class="ds-text-compact-xs"><span class="ds-text-typo">David Warner says goodbye to the SCG fans after his last Test innings</span></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><time>Jan 06, 2024</time></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"></span></div>
                                                                                                                      </div>
                                                                                                                   </div>
                                                                                                                </div>
@@ -3599,7 +3663,7 @@
                                                                                                                   <div class="ds-relative"><img alt="David Warner leaves the field for the final time in his farewell Test" class="ds-rounded-xl" src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_50/lsci/db/PICTURES/CMS/373600/373678.jpg"></div>
                                                                                                                   <div class="">
                                                                                                                      <div class="ds-flex ds-flex-col">
-                                                                                                                        <div class="ds-leading-[0] ds-text-typo-mid3"><span class="ds-text-compact-xs"><span class="ds-text-typo">David Warner leaves the field for the final time in his farewell Test</span></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><time>Jan 06, 2024</time></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><span>Getty Images</span></span></div>
+                                                                                                                        <div class="ds-leading-[0] ds-text-typo-mid3"><span class="ds-text-compact-xs"><span class="ds-text-typo">David Warner leaves the field for the final time in his farewell Test</span></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><time>Jan 06, 2024</time></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"></span></div>
                                                                                                                      </div>
                                                                                                                   </div>
                                                                                                                </div>
@@ -3613,7 +3677,7 @@
                                                                                                                   <div class="ds-relative"><img alt="David Warner walks back to a standing ovation after his final Test knock" class="ds-rounded-xl" src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_50/lsci/db/PICTURES/CMS/373600/373676.jpg"></div>
                                                                                                                   <div class="">
                                                                                                                      <div class="ds-flex ds-flex-col">
-                                                                                                                        <div class="ds-leading-[0] ds-text-typo-mid3"><span class="ds-text-compact-xs"><span class="ds-text-typo">David Warner walks back to a standing ovation after his final Test knock</span></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><time>Jan 06, 2024</time></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><span>Getty Images</span></span></div>
+                                                                                                                        <div class="ds-leading-[0] ds-text-typo-mid3"><span class="ds-text-compact-xs"><span class="ds-text-typo">David Warner walks back to a standing ovation after his final Test knock</span></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"><time>Jan 06, 2024</time></span><span class="ds-text-compact-xs ds-mx-2"><span>•</span></span><span class="ds-text-compact-xs"></span></div>
                                                                                                                      </div>
                                                                                                                   </div>
                                                                                                                </div>
@@ -3630,7 +3694,7 @@
                                                                                        <div class="tab-pane fade" id="nav-comments" role="tabpanel" aria-labelledby="nav-comments-tab">
                                                                                           <div class="col-md-12">
                                                                                            <div class="comments mb-2">
-                                                                                                 <h6>Comments Post Number 1</h2>
+                                                                                                 <h6>Comments Post Number 1</h6>
                                                                                                  <p class="ds-text-compact-xs pb-2">In non odio excepturi sint eum labore voluptates vitae quia qui et inventore itaque rerum veniam non exercitationem
                                                                                                  delectus aut.In non odio excepturi sint eum labore voluptates vitae quia qui et inventore itaque rerum veniam non exercitationem
                                                                                                  delectus aut.In non odio excepturi sint eum labore voluptates vitae quia qui et inventore itaque rerum veniam non exercitationem
@@ -3639,7 +3703,7 @@
                                                                                              </div>
                                                                                      
                                                                                              <div class="comments mb-2">
-                                                                                                 <h6>Comments Post Number 2</h2>
+                                                                                                 <h6>Comments Post Number 2</h6>
                                                                                                    <p class="ds-text-compact-xs pb-2">In non odio excepturi sint eum labore voluptates vitae quia qui et inventore itaque rerum veniam non exercitationem
                                                                                                  delectus aut.In non odio excepturi sint eum labore voluptates vitae quia qui et inventore itaque rerum veniam non exercitationem
                                                                                                  delectus aut.In non odio excepturi sint eum labore voluptates vitae quia qui et inventore itaque rerum veniam non exercitationem
@@ -3648,7 +3712,7 @@
                                                                                              </div>
                                                                                      
                                                                                              <div class="comments mb-2">
-                                                                                                 <h6>Comments Post Number 3</h2>
+                                                                                                 <h6>Comments Post Number 3</h6>
                                                                                                    <p class="ds-text-compact-xs pb-2">In non odio excepturi sint eum labore voluptates vitae quia qui et inventore itaque rerum veniam non exercitationem
                                                                                                  delectus aut.In non odio excepturi sint eum labore voluptates vitae quia qui et inventore itaque rerum veniam non exercitationem
                                                                                                  delectus aut.In non odio excepturi sint eum labore voluptates vitae quia qui et inventore itaque rerum veniam non exercitationem
@@ -3665,7 +3729,7 @@
                                                                              </div>
                                                                            </div>
                                                                         </div>
-                                  </div>
+                                  
                                 
                               </div>
                            </div>
@@ -3676,9 +3740,10 @@
                      </div>
                   
                </div>
-               </p></div>
-            </div>
+               <p></p></div>
+            
          </section>
+         
       </main>
       <!-- End #main -->
       <!-- ======= Footer ======= -->
