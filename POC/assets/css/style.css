@@ -1973,6 +1973,63 @@ background-color: rgb(249 249 251 / 100%);
 }
 
  /*Trial Details */
+
+.trialdetails .info-card {
+  padding-bottom: 10px;
+}
+.trialdetails .card {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.trialdetails .filter {
+  position: absolute;
+  right: 0px;
+  top: 15px;
+}
+
+.trialdetails .card-body {
+  padding: 0 10px 10px 10px;
+  height:155px;
+}
+
+.trialdetails .card-small{
+height:70px;
+}
+.trialdetails .card-title {
+  padding: 10px 0 5px 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+}
+
+.trialdetails .i-icon{
+    
+  width: 16px;
+  height: 16px;
+}
+.trialdetails .card-icon {
+  font-size: 2rem;
+  line-height: 0;
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+ 
+.trialdetails .info-card h6 {
+  font-size: 0.875rem;
+  color: #000;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.trialdetails .ds-text-compact-l{font-size: 1rem;}
+
+.trialdetails .title-text{color:#838383}
 .left-wrapper .accordion-button:not(.collapsed),.trial-accordion .accordion-button:not(.collapsed){
   color: #000000 !important;
     /* background-color: #f0f0f0 !important; */
