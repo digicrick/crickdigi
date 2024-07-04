@@ -4,12 +4,12 @@
 --------------------------------------------------------------*/
 body {
   font-family: BentonSans-Bold,Arial,Noto Sans,sans-serif;
-  color: #444444;
+  color: #000;
   background-color: #f9f9fb;
 }
 
 a {
-  color: #444;
+  color: #000;
   text-decoration: none;
 }
 
@@ -27,7 +27,7 @@ h6 {
     font-family: BentonSans-Bold,Arial,Noto Sans,sans-serif;
 }
 
- 
+ .h-100vh{height: 100vh;}
 
 /* Common styles for buttons */
  .digi-btn-primary{
