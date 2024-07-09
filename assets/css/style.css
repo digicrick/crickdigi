@@ -1043,6 +1043,7 @@ width:300px;
   margin: 0 10px 10px ;
   position: relative;
   border-radius: 10px;
+  border: 1px solid #ececec;
 }
 
 .ds-text-title-subtle-m {
