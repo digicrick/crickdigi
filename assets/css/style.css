@@ -1032,7 +1032,7 @@ width:300px;
 
 .box{
   position: relative;
-  min-width: 190px;
+  min-width: 145px;
   background-color: #fff;
   box-shadow: 2px 3px 30px rgba(0,0,0,0.05);
   display: flex;
