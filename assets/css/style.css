@@ -41,23 +41,12 @@ h6 {
 }
 
 
-
- .digi-btn-primary{
-  background-color: rgb(0 152 220) !important;
-  color:#fff;
-}
-
-.digi-btn-primary:hover{
+.digi-btn-save:hover{
   color:#fff;
   background-color:rgb(0 135 196);
 }
 
- .digi-btn-secondary{
-  background-color: #6c757d !important;
-  color:#fff;
-}
-
-.digi-btn-secondary:hover {
+.digi-btn-cancel:hover {
   color: #fff;
   background-color:#5c636a;
   border-color: #565e64;
