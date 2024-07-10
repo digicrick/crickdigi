@@ -40,24 +40,16 @@ h6 {
   color:#000;
 }
 
-
-
- .digi-btn-primary{
-  background-color: rgb(0 152 220) !important;
-  color:#fff;
+.digi-btn-primary {
+    background-color: rgb(0 152 220) !important;
+    color: #fff;
 }
-
-.digi-btn-primary:hover{
+.digi-btn-save:hover{
   color:#fff;
   background-color:rgb(0 135 196);
 }
 
- .digi-btn-secondary{
-  background-color: #6c757d !important;
-  color:#fff;
-}
-
-.digi-btn-secondary:hover {
+.digi-btn-cancel:hover {
   color: #fff;
   background-color:#5c636a;
   border-color: #565e64;
@@ -160,7 +152,7 @@ h6 {
 #header .logo {
   font-size: 2rem;
   margin: 0;
-  padding: 0px ;
+  padding: 5px ;
   line-height: 1;
   font-weight: 600;
   letter-spacing: 0.8px;
@@ -590,7 +582,7 @@ h6 {
 
 @media screen and (max-width: 900px) {
   .wrapper .carousel {
-    grid-auto-columns: calc((100% / 2) - 9px);
+    grid-auto-columns: calc((100% / 2) - 0px);
   }
 }
 
@@ -695,7 +687,7 @@ h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-.h-100vh{height: 100vh;}
+/*.h-100vh{height: 100vh;}*/
 
 
 #menubar-icons .bi{color:#fff}
@@ -1033,7 +1025,7 @@ width:300px;
 
 .box{
   position: relative;
-  min-width: 190px;
+  min-width: 145px;
   background-color: #fff;
   box-shadow: 2px 3px 30px rgba(0,0,0,0.05);
   display: flex;
@@ -2157,7 +2149,7 @@ background-color: rgb(249 249 251 / 100%);
 .panel-body {
   padding: 15px;
 }
-.trial-accordion .nav-link{color:#212529;font-size: 0.875rem;}
+.trial-accordion .nav-link{color:#212529;font-size: 0.875rem;padding:15px;}
 .trial-accordion .nav-tabs .nav-link.active{color:#00a8f4;border-bottom: 4px solid #00a8f4;font-size: 0.875rem;}
 .trial-accordion .nav-tabs .nav-link{border:none}
 
