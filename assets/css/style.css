@@ -518,7 +518,7 @@ h6 {
   transition: transform 0.1s linear;
 }
 .wrapper i:active{
-  transform: translateY(-50%) scale(0.85);7
+  transform: translateY(-50%) scale(0.85);
 }
 .wrapper i:first-child{
   left: -22px;
@@ -686,6 +686,7 @@ h6 {
   z-index: -1;
   opacity: .1;
 }
+
 
 .player-main ul li a:hover {
   background: linear-gradient(to right bottom, #fff 52%, #133F7E 48%);
@@ -2232,3 +2233,28 @@ height:70px;
 .trialdetails .title-text{color:#838383}
 
 
+.event-card{
+  background: linear-gradient(to right bottom, #fff 52%, #F0F9FB 48%);
+
+}
+.diagonal-shape1{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  /* z-index: -1; */
+  opacity: .1;
+}
+
+@media (max-width: 900px) {
+  .event-card .d-flex.flex-row.flex-wrap {
+    justify-content: flex-start;
+  }
+  .event-card .d-flex.flex-row.flex-wrap .ms-3 {
+    margin-left: 0 !important;
+  }
+}
+
+/* .event-card:hover{
+  background: linear-gradient(to right bottom, #fff 52%, #133F7E 48%);
+  transition: .5s;
+} */
