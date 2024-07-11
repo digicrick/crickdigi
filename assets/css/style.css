@@ -612,17 +612,7 @@ h6 {
   transition: .5s;
 }
 
-.player-main ul li a.register{
-  color: #1a8754 !important;
-  padding: 0px;
- background: none;
-}
-.player-main ul li a.register:hover{
-  color:#0398dc;
-  padding: 0px;
-}
-
-.player-main ul li {
+ .player-main ul li {
   border-radius: 10px;
   overflow: hidden;
   height: 250px;
@@ -662,6 +652,11 @@ h6 {
   /*color: #313131;*/
   border-right: 1px solid #b6cdd1;
 }
+.player-main ul li a .player-type div:hover{
+  color:#0398dc;
+  padding: 0px;
+}
+
 .player-main ul li a .player-type span {
   font-weight: 300;
 }
