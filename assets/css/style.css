@@ -2232,7 +2232,7 @@ height:70px;
 
 /* Event List */
 .match-card.match-card-modify.t20-card {
-  border-left-color: #133F7E;
+  border-left-color: #133F7E !important;
 }
 .match-card.match-card-modify {
   padding: 5px 0;
