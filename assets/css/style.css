@@ -2419,7 +2419,7 @@ height:70px;
   text-align: center;
 }
 .match-card.match-card-up.match-card-modify .match-tm-info .tm-name {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 18px;
   width: calc(110px - 0px);
 }
@@ -2562,7 +2562,7 @@ height:70px;
 .match-card.match-card-modify .match-card-bottom .match-card-btn {
   font-size: 14px;
   background-position: 100px center;
-  padding: 10px 40px 10px 15px;
+  padding:5px 5px 5px 10px;;
   border-radius: 4px;
 }
 .event-card{
