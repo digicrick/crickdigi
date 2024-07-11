@@ -613,10 +613,13 @@ h6 {
 }
 
 .player-main ul li a.register{
-  color:#1a8754;
-  font-weight: 600;
-  background:#fff;
-  border-radius: 100px;
+  color: #1a8754 !important;
+  padding: 0px;
+ background: none;
+}
+.player-main ul li a.register:hover{
+  color:#0398dc;
+  padding: 0px;
 }
 
 .player-main ul li {
@@ -656,7 +659,7 @@ h6 {
 }
 .player-main ul li a .player-type div {
   text-align: center;
-  color: #313131;
+  /*color: #313131;*/
   border-right: 1px solid #b6cdd1;
 }
 .player-main ul li a .player-type span {
