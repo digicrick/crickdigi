@@ -2521,7 +2521,7 @@ height:70px;
   width: 73px;
 }
 .match-card.match-card-modify .small-seprator {
-  background-image: url(images/versus-v2.png?v=1);
+  background-image: url(images/slash.png);
   background-size: 24px;
   width: 55px;
   height: 70px;
@@ -2531,7 +2531,7 @@ height:70px;
   position: static;
 }
 .match-card-fw .small-seprator {
-  background-image: url(images/versus.png);
+  background-image: url(images/slash.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 40px;
