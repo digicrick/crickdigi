@@ -2232,8 +2232,9 @@ height:70px;
 
 /* Event List */
 .match-card.match-card-modify.t20-card {
-  border-left-color: #133F7E !important;
+  border-left-color: #0081bb !important;
   border-left: 8px solid;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 .match-card.match-card-modify {
   padding: 5px 0;
@@ -2254,7 +2255,7 @@ height:70px;
   align-items: center;
   border-radius: 10px;
   border: 1px solid #D1D1D1;
-  background: #FEFEFE;
+  background: #f0f9fb;
   padding: 0;
 }
 .match-card {
@@ -2290,8 +2291,8 @@ height:70px;
 }
 
 .match-card.match-card-modify .matchOrderText.t20-tag {
-  border: 1px solid #133F7E;
-  background: #133F7E;
+  border: 1px solid #0098dc;
+  background: #0098dc;
   color: #fff;
 }
 .match-card.match-card-modify .matchOrderText, .match-card.match-card-modify .teamTypeTag {
@@ -2550,7 +2551,7 @@ height:70px;
   font-weight: 600;
 }
 .match-card-fw.match-card-up.match-card-modify .match-card-bottom .match-card-btn {
-  background-color: #C65142;
+  background-color: #ff9103;
 }
 .match-card.match-card-modify .match-card-bottom .match-card-btn {
   font-size: 14px;
