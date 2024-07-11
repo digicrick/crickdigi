@@ -615,6 +615,8 @@ h6 {
 .player-main ul li a.register{
   color:#1a8754;
   font-weight: 600;
+  background:#fff;
+  border-radius: 100px;
 }
 
 .player-main ul li {
