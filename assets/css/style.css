@@ -29,7 +29,7 @@ h5,
 h6 {
   font-family: BentonSans-Bold,Arial,Noto Sans,sans-serif;
 }
-
+.check-z{position:relative;z-index:99}
 .left-nav-h,.right-nav-h{
   font-size: 1.25rem;
   color:#000;
