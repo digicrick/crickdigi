@@ -2574,6 +2574,17 @@ height:70px;
       flex-direction: row;
   }
 }
+@media (max-width: 940px) {
+  .match-card.match-card-modify .match-card-bottom {
+      flex-direction: row-reverse;
+      align-items: center;
+      padding: 10px 10px 5px;
+  }
+}
+#match-live-card .match-card-top, .match-card-fw .match-card-top {
+  flex-direction: row;
+  justify-content: left;
+}
 .diagonal-shape1{
   position: absolute;
   left: 0;
