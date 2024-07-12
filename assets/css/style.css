@@ -2543,6 +2543,37 @@ height:70px;
   background: linear-gradient(to right bottom, #fff 52%, #F0F9FB 48%);
 
 }
+
+@media (max-width: 940px) {
+  .match-card.match-card-modify .match-card-top {
+      padding: 0 0 10px 0;
+      margin: 5px 10px 0;
+  }
+}
+
+@media (max-width: 940px) {
+  .match-card.match-card-fw .match-card-top {
+      border-bottom: 1px solid #ccc;
+      padding: 10px 10px 1rem;
+      margin-bottom: 0.8rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .match-card.match-card-modify {
+      border-left-width: 6px;
+  }
+}
+@media (max-width: 940px) {
+  .match-card.match-card-modify {
+      border-radius: 8px;
+  }
+}
+@media (max-width: 940px) {
+  .match-card.match-card-fw {
+      flex-direction: column;
+  }
+}
 .diagonal-shape1{
   position: absolute;
   left: 0;
