@@ -2559,6 +2559,14 @@ height:70px;
   }
 }
 
+@media (min-width: 3840px){
+
+  .right-card{
+    justify-content:flex-end;
+    
+  }
+}
+
 @media (max-width: 460px) {
   .match-card.match-card-modify {
       border-left-width: 6px;
