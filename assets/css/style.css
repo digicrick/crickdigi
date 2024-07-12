@@ -2232,8 +2232,8 @@ height:70px;
 
 /* Event List */
 .match-card.match-card-modify.t20-card {
-  border-left-color: #0081bb !important;
-  border-left: 8px solid;
+  border-right-color: #0081bb !important;
+  border-right: 8px solid;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 .match-card.match-card-modify {
@@ -2255,7 +2255,7 @@ height:70px;
   align-items: center;
   border-radius: 10px;
   border: 1px solid #D1D1D1;
-  background: #f0f9fb;
+  background: #f8f8f8;
   padding: 0;
 }
 .match-card {
@@ -2295,10 +2295,7 @@ height:70px;
   background: #0098dc;
   color: #fff;
 }
-.match-card.match-card-modify .matchOrderText, .match-card.match-card-modify .teamTypeTag {
-  line-height: 18px;
-  margin: 0;
-}
+ 
 .match-card.match-card-modify .matchOrderText {
   padding: 2px 6px;
 }
@@ -2311,8 +2308,6 @@ height:70px;
   border-radius: 4px;
   border: 1px solid #C5C5C5;
   color: #696969;
-  
-  font-size: 12px;
   font-style: normal;
   font-weight: 600;
   line-height: 24px;
@@ -2328,7 +2323,6 @@ height:70px;
   margin: 0;
 }
 .match-card.match-card-modify .teamTypeTag {
-  padding: 2px 9px;
   border: 0;
   margin-left: 5px;
   background: rgba(255, 199, 168, 0.68);
@@ -2337,7 +2331,6 @@ height:70px;
   border-radius: 4px;
   color: #B96333;
   
-  font-size: 12px;
   font-style: normal;
   font-weight: 600;
   line-height: 24px;
@@ -2351,14 +2344,6 @@ height:70px;
   align-items: flex-start;
 }
 
-.match-info {
-  display: flex;
-  flex-direction: row;
-}
-.match-info {
-  display: flex;
-  flex-direction: row;
-}
 .match-card.match-card-modify .match-card-top, .match-card.match-card-modify .match-card-middle, .match-card.match-card-modify .match-card-bottom {
   padding: 0.6rem 1rem;
 }
@@ -2475,8 +2460,8 @@ height:70px;
   margin: 0 10px;
 }
 .match-card.match-card-up.match-card-modify .match-coutnry-img {
-  width: 75px;
-  height: 75px;
+  width: 65px;
+  height: 65px;
 }
 .match-card-modify .match-tm-info .match-coutnry-img {
   margin: 0 5px;
