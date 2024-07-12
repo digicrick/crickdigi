@@ -2349,10 +2349,7 @@ height:70px;
   align-items: start;
   gap: 5px;
 }
-.match-card.match-card-fw .match-card-top, .match-card.match-card-fw .match-card-middle, .match-card.match-card-fw .match-card-bottom {
-  padding: 1rem;
-}
-.match-card-fw .match-card-middle {
+ .match-card-fw .match-card-middle {
   border-image: none;
 }
 .match-card-top, .match-card-middle, .match-card-bottom {
