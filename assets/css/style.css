@@ -2564,7 +2564,7 @@ height:70px;
       border-left-width: 6px;
   }
   .right-card-mobile{
-    justify-content:end;
+    justify-content:flex-start;
     
   }
 }
@@ -2578,7 +2578,7 @@ height:70px;
       flex-direction: row;
   }
   .right-card{
-    justify-content:start;
+    justify-content:flex-end;
     
   }
 }
