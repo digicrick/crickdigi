@@ -2326,7 +2326,7 @@ height:70px;
   background: rgba(255, 199, 168, 0.68);
 }
 .teamTypeTag {
-  border-radius: 4px;
+  border-radius: 12px;
   color: #B96333;
   
   font-style: normal;
@@ -2537,10 +2537,10 @@ height:70px;
   background-color: #ff9103;
 }
 .match-card.match-card-modify .match-card-bottom .match-card-btn {
-  font-size: 14px;
+  font-size: 12px;
   background-position: 100px center;
   padding:5px 5px 5px 10px;;
-  border-radius: 4px;
+  border-radius: 16px;
 }
 .event-card{
   background: linear-gradient(to right bottom, #fff 52%, #F0F9FB 48%);
