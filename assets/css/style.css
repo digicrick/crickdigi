@@ -2559,22 +2559,13 @@ height:70px;
   }
 }
 
-@media (min-width: 3840px){
-
-  .right-card{
-    justify-content:flex-end;
-    
-  }
-}
+ 
 
 @media (max-width: 460px) {
   .match-card.match-card-modify {
       border-left-width: 6px;
   }
-  .right-card-mobile{
-    justify-content:flex-start;
-    
-  }
+  
 }
 @media (max-width: 940px) {
   .match-card.match-card-modify {
@@ -2585,10 +2576,7 @@ height:70px;
   .match-card.match-card-fw {
       flex-direction: row;
   }
-  .right-card{
-    justify-content:flex-end;
-    
-  }
+  
 }
 @media (max-width: 940px) {
   .match-card.match-card-modify .match-card-bottom {
