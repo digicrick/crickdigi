@@ -2563,6 +2563,10 @@ height:70px;
   .match-card.match-card-modify {
       border-left-width: 6px;
   }
+  .right-card-mobile{
+    justify-content:end;
+    
+  }
 }
 @media (max-width: 940px) {
   .match-card.match-card-modify {
@@ -2572,6 +2576,10 @@ height:70px;
 @media (max-width: 940px) {
   .match-card.match-card-fw {
       flex-direction: row;
+  }
+  .right-card{
+    justify-content:start;
+    
   }
 }
 @media (max-width: 940px) {
