@@ -1,4 +1,4 @@
-  
+   
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -6,7 +6,7 @@ body {
   font-family: BentonSans-Bold,Arial,Noto Sans,sans-serif;
   color: #444444;
  
-  background: url("../images/hero-bg.png") top center no-repeat;
+  background: url("https://digicrick.github.io/crickdigi/images/hero-bg.png") top center no-repeat;
     background-size: cover;
   
 }
@@ -29,7 +29,8 @@ h5,
 h6 {
   font-family: BentonSans-Bold,Arial,Noto Sans,sans-serif;
 }
-
+.check-z{position:relative;z-index:99}
+.digi-btn-save,.digi-btn-cancel{width:80px;}
 .left-nav-h,.right-nav-h{
   font-size: 1.25rem;
   color:#000;
@@ -132,7 +133,7 @@ h6 {
   color: white;
 }
 
-#topbar span{font-size:0.75rem;font-weight: 700;}
+#topbar span, #topbar a{font-size:0.75rem;font-weight: 700;}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -513,10 +514,10 @@ h6 {
   transform: translateY(-50%) scale(0.85);
 }
 .wrapper i:first-child{
-  left: -22px;
+  left:-30px;
 }
 .wrapper i:last-child{
-  right: -22px;
+  right: -30px;
 }
 .wrapper .carousel{
   display: grid;
@@ -611,7 +612,7 @@ h6 {
   transition: .5s;
 }
 
-.player-main ul li {
+ .player-main ul li {
   border-radius: 10px;
   overflow: hidden;
   height: 250px;
@@ -648,9 +649,14 @@ h6 {
 }
 .player-main ul li a .player-type div {
   text-align: center;
-  color: #313131;
+  /*color: #313131;*/
   border-right: 1px solid #b6cdd1;
 }
+.player-main ul li a .player-type div:hover{
+  color:#0398dc;
+  padding: 0px;
+}
+
 .player-main ul li a .player-type span {
   font-weight: 300;
 }
@@ -2224,10 +2230,364 @@ height:70px;
 
 .trialdetails .title-text{color:#838383}
 
+/* Event List */
+.match-card.match-card-modify.t20-card {
+  border-right-color: #0081bb !important;
+  border-right: 8px solid;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+.match-card.match-card-modify {
+  padding: 5px 0;
+  border-radius: 0;
+  background-color: #F2F6FF;
+  border: 1px solid #616D8E;
+  border-left: 8px solid #888888;
+}
 
+.match-card-fw.match-card-up {
+  border-top: 4px solid #58716F;
+}
+.match-card-fw.match-card {
+  height: auto !important;
+}
+.match-card.match-card-fw {
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #D1D1D1;
+  background: #f8f8f8;
+  padding: 0;
+}
+.match-card {
+  height: 210px !important;
+  width: calc(100% - 0px);
+}
+.match-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 20px;
+  background: #FFFFFF;
+  border: 4px solid #E7E7E7;
+  border-radius: 8px;
+  color: #000062;
+  overflow: hidden;
+}
+.match-card.match-card-modify .tags-wrap-mob {
+  display: none;
+}
+.match-card.match-card-modify .match-card-top .match-tournament-name, .match-card.match-card-modify .tags-wrap {
+  margin: 0 0 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+}
+
+.tags-wrap {
+  margin-bottom: 10px;
+}
+
+.match-card.match-card-modify .matchOrderText.t20-tag {
+  border: 1px solid #0098dc;
+  background: #0098dc;
+  color: #fff;
+}
+ 
+ 
+.matchOrderText.t20-tag {
+  border: 1px solid #133F7E;
+  background: rgb(19 63 126 / 40%);
+  color: #0b264d;
+}
+.matchOrderText {
+  border-radius: 12px;
+  border: 1px solid #C5C5C5;
+  color: #696969;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 1px 6px;
+}
+@media screen and (min-width: 1680px) and (max-width: 3000px) {
+  .match-card {
+      width: calc(485px - 0px);
+  }
+}
+.match-card.match-card-modify .matchOrderText, .match-card.match-card-modify .teamTypeTag {
+  line-height: 18px;
+  margin: 0;
+}
+.match-card.match-card-modify .teamTypeTag {
+  border: 0;
+  margin-left: 5px;
+  background: rgba(255, 199, 168, 0.68);
+}
+.teamTypeTag {
+  border-radius: 12px;
+  color: #B96333;
+  
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 1px 6px;
+  border: 1px solid #B96333;
+  background: rgba(255, 199, 168, 0.40);
+  margin-left: 10px;
+}
+#match-live-card .match-info, .match-card-fw .match-info {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.match-card.match-card-modify .match-card-top, .match-card.match-card-modify .match-card-middle, .match-card.match-card-modify .match-card-bottom {
+  padding: 0.6rem 1rem;
+}
+.match-card.match-card-modify .match-card-bottom {
+  align-items: start;
+  gap: 5px;
+}
+ .match-card-fw .match-card-middle {
+  border-image: none;
+}
+.match-card-top, .match-card-middle, .match-card-bottom {
+  z-index: 9;
+}
+.match-card-middle {
+  flex: 0 0 6rem;
+  justify-content: center;
+  position: relative;
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  border-image: linear-gradient(0.25turn, rgba(239, 65, 35, 0), rgba(239, 65, 35), rgba(239, 65, 35, 0));
+  border-image-slice: 100%;
+  border-image-slice: 1;
+  padding: 10px 0;
+  flex-direction: column;
+}
+.match-card-modify .match-card-middle__inner {
+  padding: 0;
+}
+.match-card-middle__inner {
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly !important;
+}
+
+.match-card-modify .match-tm-info {
+  gap: 5px;
+  align-items: self-start;
+}
+
+.match-tm-info {
+  display: flex;
+  align-items: center;
+}
+.match-tm-info {
+  display: flex;
+  align-items: center;
+}
+.match-card-modify .match-tm-info .team-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.match-card-fw .team-wrap {
+  text-align: center;
+}
+.match-card.match-card-up.match-card-modify .match-tm-info .tm-name {
+  font-size: 14px;
+  line-height: 18px;
+  width: calc(110px - 0px);
+}
+ 
+.match-card-fw .match-tm-info.teamLeft .tm-name {
+  margin-left: 0;
+}
+ 
+.match-tm-info.teamLeft .tm-name {
+  margin-right: 0;
+}
+ 
+.match-card-modify .match-tm-info.teamLeft .tm-name {
+  text-align: right;
+}
+.match-tm-info.teamRight {
+  flex-direction: row-reverse;
+}
+ 
+
+.match-tm-info {
+  display: flex;
+  align-items: center;
+}
+ 
+.match-card-modify .match-tm-info.teamRight .tm-name {
+  text-align: left;
+}
+.match-card-fw .match-tm-info.teamRight .tm-name {
+  text-align: center;
+  margin-right: 0;
+}
+.match-tm-info.teamRight .tm-name {
+  margin-left: 0;
+  text-align: right;
+}
+.match-tm-info.teamRight .tm-name {
+  margin-left: 0;
+  text-align: right;
+}
+@media (min-width: 641px) {
+  .tm-code {
+      display: none;
+  }
+}
+.tm-name {
+  width: calc(110px - 0px);
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  margin: 0 10px;
+}
+.match-card.match-card-up.match-card-modify .match-coutnry-img {
+  width: 65px;
+  height: 65px;
+}
+.match-card-modify .match-tm-info .match-coutnry-img {
+  margin: 0 5px;
+  width: 75px;
+  height: 75px;
+}
+.match-card-fw .match-coutnry-img {
+  margin: 0 auto;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none;
+}
+.match-coutnry-img {
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+
+.match-coutnry-img {
+  width: 55px;
+  height: 55px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+.match-card.match-card-up.match-card-modify .match-coutnry-img img {
+  width: 40px;
+}
+
+.match-card-modify .match-tm-info .match-coutnry-img img {
+  width: 43px;
+}
+.match-card.match-card-modify .small-seprator {
+  background-image: url(https://digicrick.github.io/crickdigi/images/slash.png);
+  background-size: 24px;
+  width:128px;
+  height: 128px;
+  padding: 0 10px;
+}
+.match-card-fw .match-card-middle .small-seprator {
+  position: static;
+}
+.match-card-fw .small-seprator {
+  background-image: url(https://digicrick.github.io/crickdigi/images/slash.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  width:128px;
+  height: 128px;
+}
+.small-seprator {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  justify-content: center;
+  top: 36px;
+  font-size: 14px;
+}
+.match-card.match-card-modify .match-card-top .match-tournament-name {
+  line-height: 16px;
+}
+.match-card-fw .match-card-top .match-tournament-name {
+  font-size: 11px;
+  color: #000;
+  font-style: normal; 
+  font-weight: 600;
+}
+.match-card-fw.match-card-up.match-card-modify .match-card-bottom .match-card-btn {
+  background-color: #ff9103;
+}
+.match-card.match-card-modify .match-card-bottom .match-card-btn {
+  font-size: 12px;
+  background-position: 100px center;
+  padding:5px 5px 5px 10px;;
+  border-radius: 16px;
+}
 .event-card{
   background: linear-gradient(to right bottom, #fff 52%, #F0F9FB 48%);
 
+}
+
+@media (max-width: 940px) {
+  .match-card.match-card-modify .match-card-top {
+      padding: 0 0 10px 0;
+      margin: 5px 10px 0;
+  }
+}
+
+@media (max-width: 940px) {
+  .match-card.match-card-fw .match-card-top {
+      border-bottom: 1px solid #ccc;
+      padding: 10px 10px 1rem;
+      margin-bottom: 0.8rem;
+  }
+}
+
+ 
+
+@media (max-width: 460px) {
+  .match-card.match-card-modify {
+      border-left-width: 6px;
+  }
+  
+}
+@media (max-width: 940px) {
+  .match-card.match-card-modify {
+      border-radius: 8px;
+  }
+}
+@media (max-width: 940px) {
+  .match-card.match-card-fw {
+      flex-direction: row;
+  }
+  
+}
+@media (max-width: 940px) {
+  .match-card.match-card-modify .match-card-bottom {
+      flex-direction: row-reverse;
+      align-items: center;
+      padding: 10px 10px 5px;
+  }
+}
+#match-live-card .match-card-top, .match-card-fw .match-card-top {
+  flex-direction: row;
+  justify-content: left;
 }
 .diagonal-shape1{
   position: absolute;
