@@ -610,6 +610,7 @@ h6 {
   z-index: 1;
   background: linear-gradient(to right bottom, #fff 52%, #F0F9FB 48%);
   transition: .5s;
+  cursor:auto;
 }
 
  .event-trial ul li {
@@ -2116,7 +2117,7 @@ background-color: rgb(249 249 251 / 100%);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
-  height: 100%;
+  /*height: 100%;*/
   width: 100%;
 
 }
