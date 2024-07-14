@@ -259,7 +259,7 @@ h6 {
   .navmenu .dropdown ul {
     margin: 0;
     padding: 10px 0;
-    background: rgba(33, 37, 41, 0.03);;
+    background: #fff;
     display: block;
     position: absolute;
     visibility: hidden;
@@ -280,7 +280,7 @@ h6 {
     padding: 10px 20px;
     font-size: 15px;
     text-transform: none;
-    color:#0000;
+    color:#000;
   }
 
   .navmenu .dropdown ul a i {
