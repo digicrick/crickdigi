@@ -205,7 +205,8 @@ h6 {
   }
 
   .navmenu>ul>li:last-child {
-    padding-right: 0;
+    background: #2eb5f2;
+    border-left: 1px solid #3fc3ff;
   }
 
   .navmenu a,
@@ -314,7 +315,9 @@ h6 {
     visibility: visible;
   }
 }
-
+.signin-bg{
+  background: #2eb5f2;
+}
 /* Mobile Navigation */
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
@@ -656,7 +659,7 @@ h6 {
   border-right: 1px solid #b6cdd1;
 }
 .event-trial ul li a .player-type div:hover{
-  color:#0398dc;
+  /*color:#0398dc;*/
   padding: 0px;
 }
 
