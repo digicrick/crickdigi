@@ -258,12 +258,12 @@ h6 {
 
   .navmenu .dropdown ul {
     margin: 0;
-    padding: 0px 0;
+    padding: 10px 0;
     background: #fff;
     display: block;
     position: absolute;
     visibility: hidden;
-    left: 0px;
+    left: 14px;
     top: 130%;
     opacity: 0;
     transition: 0.3s;
@@ -392,10 +392,18 @@ h6 {
     transform: rotate(180deg);
   }
 
-  
+  .navmenu .dropdown ul {
+    position: static;
+    display: none;
+    z-index: 99;
+    padding: 10px 0;
+    margin: 10px 20px;
+    background-color: rgba(33, 37, 41, 0.03);
+    transition: all 0.5s ease-in-out;
+  }
 
   .navmenu .dropdown ul ul {
-    background-color:#fff;
+    background-color: rgba(33, 37, 41, 0.1);
   }
 
   .navmenu .dropdown>.dropdown-active {
