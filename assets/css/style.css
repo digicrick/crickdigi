@@ -258,12 +258,12 @@ h6 {
 
   .navmenu .dropdown ul {
     margin: 0;
-    padding: 10px 0;
+    padding: 0px 0;
     background: #fff;
     display: block;
     position: absolute;
     visibility: hidden;
-    left: 14px;
+    left: 0px;
     top: 130%;
     opacity: 0;
     transition: 0.3s;
@@ -396,9 +396,9 @@ h6 {
     position: static;
     display: none;
     z-index: 99;
-    padding: 10px 0;
+    padding: 0px 0;
     margin: 10px 20px;
-    background-color: rgba(33, 37, 41, 0.03);
+    background-color:#fff;
     transition: all 0.5s ease-in-out;
   }
 
@@ -600,7 +600,7 @@ h6 {
   background:#0398dc
 }
 
-.player-main ul li a {
+.player-main ul li span {
   display: block;
   position: relative;
   width: 100%;
@@ -618,7 +618,7 @@ h6 {
   height: 250px;
   position: relative;
 }
-.player-main ul li a .t-shirt {
+.player-main ul li span .t-shirt {
   /*background-image: url(../images/destination.png);
   background-repeat: no-repeat;
   height: 129px;
@@ -635,7 +635,7 @@ h6 {
   transition: .5s;
   right: 9px;
 }
-.player-main ul li a .player-type {
+.player-main ul li span .player-type {
   display: grid;
   grid-auto-flow: column;
   width: 100%;
@@ -647,27 +647,27 @@ h6 {
   overflow: hidden;
   margin-top: 15px;
 }
-.player-main ul li a .player-type div {
+.player-main ul li span .player-type div {
   text-align: center;
   /*color: #313131;*/
   border-right: 1px solid #b6cdd1;
 }
-.player-main ul li a .player-type div:hover{
+.player-main ul li span .player-type div:hover{
   color:#0398dc;
   padding: 0px;
 }
 
-.player-main ul li a .player-type span {
+.player-main ul li span .player-type span {
   font-weight: 300;
 }
-.player-main ul li a .player-type div p {
+.player-main ul li span .player-type div p {
   margin-bottom: 0;
   font-weight: 700;
   letter-spacing: .96px;
   font-size: 12px;
 }
 
-.player-main ul li a .player-pik {
+.player-main ul li span .player-pik {
   width: 40px;
   height: 40px;
   border-radius: 100px;
