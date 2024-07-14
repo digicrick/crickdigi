@@ -290,7 +290,7 @@ h6 {
   .navmenu .dropdown ul a:hover,
   .navmenu .dropdown ul .active:hover,
   .navmenu .dropdown ul li:hover>a {
-    color: #fff;
+    color: #444444;
   }
 
   .navmenu .dropdown:hover>ul {
@@ -622,7 +622,7 @@ h6 {
   padding-top: 0px;
   font-weight: 600;
   position: absolute;
-  top: 48px;
+  top: 58px;
   z-index: -1;
   transition: .5s;
   right: 9px;
