@@ -592,7 +592,7 @@ h6 {
   background:#0398dc
 }
 
-.player-main ul li a {
+.player-main ul li span {
   display: block;
   position: relative;
   width: 100%;
@@ -610,7 +610,7 @@ h6 {
   height: 250px;
   position: relative;
 }
-.player-main ul li a .t-shirt {
+.player-main ul li span .t-shirt {
   /*background-image: url(../images/destination.png);
   background-repeat: no-repeat;
   height: 129px;
@@ -622,12 +622,12 @@ h6 {
   padding-top: 0px;
   font-weight: 600;
   position: absolute;
-  top: 58px;
+  top: 48px;
   z-index: -1;
   transition: .5s;
   right: 9px;
 }
-.player-main ul li a .player-type {
+.player-main ul li span .player-type {
   display: grid;
   grid-auto-flow: column;
   width: 100%;
@@ -639,27 +639,27 @@ h6 {
   overflow: hidden;
   margin-top: 15px;
 }
-.player-main ul li a .player-type div {
+.player-main ul li span .player-type div {
   text-align: center;
   /*color: #313131;*/
   border-right: 1px solid #b6cdd1;
 }
-.player-main ul li a .player-type div:hover{
+.player-main ul li span .player-type div:hover{
   color:#0398dc;
   padding: 0px;
 }
 
-.player-main ul li a .player-type span {
+.player-main ul li span .player-type span {
   font-weight: 300;
 }
-.player-main ul li a .player-type div p {
+.player-main ul li span .player-type div p {
   margin-bottom: 0;
   font-weight: 700;
   letter-spacing: .96px;
   font-size: 12px;
 }
 
-.player-main ul li a .player-pik {
+.player-main ul li span .player-pik {
   width: 40px;
   height: 40px;
   border-radius: 100px;
