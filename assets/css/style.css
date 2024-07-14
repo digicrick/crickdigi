@@ -592,7 +592,7 @@ h6 {
   background:#0398dc
 }
 
-.player-main ul li .carousel-top {
+.player-main ul li.carousel-top {
   display: block;
   position: relative;
   width: 100%;
