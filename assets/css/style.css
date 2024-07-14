@@ -2330,7 +2330,6 @@ height:70px;
 .teamTypeTag {
   border-radius: 12px;
   color: #B96333;
-  
   font-style: normal;
   font-weight: 600;
   line-height: 24px;
@@ -2347,6 +2346,18 @@ height:70px;
 .match-card.match-card-modify .match-card-top, .match-card.match-card-modify .match-card-middle, .match-card.match-card-modify .match-card-bottom {
   padding: 0.6rem 1rem;
 }
+
+.match-card-top .player-event {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #def4ff;
+  overflow: hidden;
+  padding: 5px;
+  text-align: center;
+  transition: .5s;
+}
+
 .match-card.match-card-modify .match-card-bottom {
   align-items: start;
   gap: 5px;
@@ -2533,7 +2544,7 @@ height:70px;
   font-weight: 600;
 }
 .match-card-fw.match-card-up.match-card-modify .match-card-bottom .match-card-btn {
-  background-color: #ff9103;
+  background-color: #dc3545;
 }
 .match-card.match-card-modify .match-card-bottom .match-card-btn {
   font-size: 12px;
