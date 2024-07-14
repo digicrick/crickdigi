@@ -2510,8 +2510,8 @@ height:70px;
 .match-card.match-card-modify .small-seprator {
   background-image: url(https://digicrick.github.io/crickdigi/images/slash.png);
   background-size: 24px;
-  width:128px;
-  height: 128px;
+  width:80px;
+  height: 80px;
   padding: 0 10px;
 }
 .match-card-fw .match-card-middle .small-seprator {
@@ -2522,8 +2522,8 @@ height:70px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 40px;
-  width:128px;
-  height: 128px;
+  width:80px;
+  height: 80px;
 }
 .small-seprator {
   position: absolute;
