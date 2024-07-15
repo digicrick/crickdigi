@@ -142,7 +142,7 @@ h6 {
   transition: all 0.5s;
   z-index: 9999;
   margin-bottom: 5px;
-  height: 50px;
+  height: 40px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -201,7 +201,7 @@ h6 {
 
   .navmenu>ul>li {
     white-space: nowrap;
-    padding:14px;
+    padding:9px;
   }
 
   .navmenu>ul>li:last-child {
