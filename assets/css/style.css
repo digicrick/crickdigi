@@ -631,7 +631,7 @@ h6 {
   width: 119px;*/
   background-repeat: no-repeat;
   text-align: right;
-  color: #ffae35;
+  color: #00b0ff;
   font-size: 1rem;
   padding-top: 0px;
   font-weight: 600;
@@ -2301,7 +2301,7 @@ height:70px;
 .match-card.match-card-modify .matchOrderText.t20-tag {
   border: 1px solid transparent;
   background: none;
-  color: #ffaf35;
+  color: #00b0ff;
 }
  
  
@@ -2331,7 +2331,7 @@ height:70px;
 .match-card.match-card-modify .teamTypeTag {
   border: 0;
   margin-left: 5px;
-  background: rgba(255, 199, 168, 0.68);
+  /*background: rgba(255, 199, 168, 0.68);*/
 }
 .teamTypeTag {
   border-radius: 12px;
@@ -2341,7 +2341,7 @@ height:70px;
   line-height: 24px;
   padding: 1px 6px;
   border: 1px solid #B96333;
-  background: rgba(255, 199, 168, 0.40);
+  /*background: rgba(255, 199, 168, 0.40);*/
   margin-left: 10px;
 }
 #match-live-card .match-info, .match-card-fw .match-info {
