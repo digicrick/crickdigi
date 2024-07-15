@@ -2280,7 +2280,7 @@ height:70px;
   background: #FFFFFF;
   border: 4px solid #E7E7E7;
   border-radius: 8px;
-  color: #000062;
+  color: #000;
   overflow: hidden;
 }
 .match-card.match-card-modify .tags-wrap-mob {
@@ -2651,3 +2651,89 @@ height:70px;
   background: linear-gradient(to right bottom, #fff 52%, #133F7E 48%);
   transition: .5s;
 } */
+
+/*event registration */
+
+.services .service-item {
+  background-color: var(--surface-color);
+  box-shadow: 0px 0 30px 0 rgba(0, 0, 0, 0.1);
+  padding: 50px 30px;
+  transition: all ease-in-out 0.4s;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.services .service-item i {
+  background: #3498db;
+  color: #ffffff;
+  font-size: 24px;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.services .service-item h4 {
+  font-weight: 600;
+  margin: 15px 0 0 0;
+  transition: 0.3s;
+  font-size: 20px;
+}
+.services .service-item h4 a {
+  color: #040404;
+}
+.services .service-item:hover i {
+  background: #ffffff;
+  color: #3599dc;
+}
+.stretched-link::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  content: "";
+}
+.services .service-item p {
+  line-height: 24px;
+  font-size: 14px;
+  margin: 10px 0 0 0;
+}
+
+.services .service-item:after {
+  content: "";
+  position: absolute;
+  background:color-mix(in srgb, #3498db, transparent 97%);
+  right: -140px;
+  top: -140px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.services .service-item:before {
+  content: "";
+  position: absolute;
+  background:color-mix(in srgb, #3498db, transparent 96%);
+  right: -80px;
+  top: -80px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.services .service-item:hover:before, .services .service-item:hover:after {
+  background: #3498db;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
