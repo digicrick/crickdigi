@@ -2654,7 +2654,7 @@ height:70px;
 
 /*event registration */
 
-.services .service-item {
+.player .service-item {
   background-color: var(--surface-color);
   box-shadow: 0px 0 30px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
@@ -2664,7 +2664,7 @@ height:70px;
   z-index: 1;
 }
 
-.services .service-item i {
+.player .service-item i {
   background: #3498db;
   color: #ffffff;
   font-size: 24px;
@@ -2677,7 +2677,7 @@ height:70px;
   border-radius: 50%;
 }
 
-.services .service-item h4 {
+.player .service-item h4 {
   font-weight: 600;
   margin: 15px 0 0 0;
   transition: 0.3s;
@@ -2686,7 +2686,7 @@ height:70px;
 .services .service-item h4 a {
   color: #040404;
 }
-.services .service-item:hover i {
+.player .service-item:hover i {
   background: #ffffff;
   color: #3599dc;
 }
@@ -2699,13 +2699,13 @@ height:70px;
   z-index: 1;
   content: "";
 }
-.services .service-item p {
+.player .service-item p {
   line-height: 24px;
   font-size: 14px;
   margin: 10px 0 0 0;
 }
 
-.services .service-item:after {
+.player .service-item:after {
   content: "";
   position: absolute;
   background:color-mix(in srgb, #3498db, transparent 97%);
@@ -2717,7 +2717,7 @@ height:70px;
   transition: all 0.3s;
   z-index: -1;
 }
-.services .service-item:before {
+.player .service-item:before {
   content: "";
   position: absolute;
   background:color-mix(in srgb, #3498db, transparent 96%);
@@ -2729,7 +2729,7 @@ height:70px;
   transition: all 0.3s;
   z-index: -1;
 }
-.services .service-item:hover:before, .services .service-item:hover:after {
+.player .service-item:hover:before, .player .service-item:hover:after {
   background: #3498db;
   right: 0;
   top: 0;
