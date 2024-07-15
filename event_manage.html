@@ -1,35 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
+	<meta charset="utf-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<title>Manage Events</title>
+	<title>Event Manage</title>
 	<meta content="" name="description">
 	<meta content="" name="keywords">
 	<!-- Favicons -->
 	<link href="assets/img/favicon.png" rel="icon">
 	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+		rel="stylesheet">
 	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 	<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
 	<link href="assets/css/style.css" rel="stylesheet">
 	<link href="assets/css/style2.css" rel="stylesheet">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+		integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+		crossorigin="anonymous"></script>
 
 </head>
+
 <body>
-    <!-- ======= Top Bar ======= -->
-	<section id="topbar" class="d-flex align-items-center d-none ">
+	<!-- ======= Top Bar ======= -->
+	<section id="topbar" class="d-flex align-items-center d-none  ">
 		<div class="container d-flex justify-content-center justify-content-md-between">
-			<div class="contact-info d-flex align-items-center"> <span>Matches(24)</span> <span class="px-3">SL v ZIM (2)</span> <span class="px-3">IND v AUS (1)</span> <span class="px-3">Super Smash (1)</span> <span class="px-3">BBL 2023 (2)</span> </div>
-		<a href="login_form.html" class="px-2 text-white"><span class="bi bi-box-arrow-in-right text-white px-2"></span>Login</a>
+			<div class="contact-info d-flex align-items-center"> <span>Matches(24)</span> <span class="px-3">SL v ZIM
+					(2)</span> <span class="px-3">IND v AUS (1)</span> <span class="px-3">Super Smash (1)</span> <span
+					class="px-3">BBL 2023 (2)</span> </div>
+			<a href="login_form.html" class="px-2 text-white"><span class="bi bi-box-arrow-in-right text-white px-2"></span>Login</a>
 		</div>
 	</section>
 	<!--Top Carousel-->
-	  <div class="container-fluid bg-primary-header d-none  d-sm-block ">
+	   <div class="container-fluid bg-primary-header d-none  d-sm-block ">
          <div class="container pt-3">
 			<div class="wrapper event-trial">
 				<i id="left" class="bi bi-chevron-left"></i>
@@ -230,13 +237,11 @@
 				   </li>
 				</ul>
 				<i id="right" class="bi bi-chevron-right"></i>
-			 </div>
-   
+			 </div>  
    
          </div>
       </div>
-	<!-- ======= Header ======= -->
-	<header id="header" class="header d-flex align-items-center sticky-top">
+	  <header id="header" class="header d-flex align-items-center sticky-top">
 		<div class="container d-flex align-items-center justify-content-between">
 		   <div class="d-flex"><a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
 				  <!-- Uncomment the line below if you also wish to use an image logo -->
@@ -271,284 +276,334 @@
 		</div>
 	 </header>
       <!-- End Header -->
-       <main id="main" data-aos="fade-up">
-            <section class="inner-page">
-                <div class="container">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12 col-lg-12 px-3">
-                                <div class="row">
-									
-									<div class="d-flex flex-row align-items-center justify-content-between  px-2">
-										<div>
-											<h5 class="py-1">Manage Events</h5>
-										</div>
-										<div class="justify-content-end">
-										<button type="button" class="btn digi-btn-primary me-2 mb-2 d-flex align-items-center justify-content-center" >New</button>
+   <!-- End Header -->
+	<main id="main" data-aos="fade-up">
+		<section class="inner-page">
+			<div class="container">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12 col-lg-3 bg-light shadow-sm rounded left-image p-2 mb-3 px-1">
+							<!-- <div class="col-md-12   px-0 py-0 pb-2 ">
+								
+								<div class=" ds-table mt-2">
+									<div class="pb-2 w-100">
+										<select class="form-select form-select-sm " aria-label=".form-select-sm">
+											<option selected="">Select a location</option>
+											<option value="1">Karachi</option>
+											<option value="2">Lahore</option>
+											<option value="3">Islamabad</option>
+											<option value="4">Rawalpindi</option>
+											<option value="5">Faisalabad</option>
+											<option value="6">Multan</option>
+											<option value="7">Hyderabad</option>
+											<option value="8">Peshawar</option>
+											<option value="9">Quetta</option>
+											<option value="10">Gujranwala</option>
+										</select>
+									</div>
+								</div>
+							</div> -->
+							<div class="accordion left-wrapper" id="accordionExample">
+								<!-- location -->
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+										<button class="accordion-button ds-text-compact-xs collapsed" type="button"
+											data-bs-toggle="collapse" data-bs-target="#collapsefive"
+											aria-expanded="false" aria-controls="collapsefive">
+											Select a Location
+										</button>
+									</h2>
+									<div id="collapsefive" class="accordion-collapse collapse"
+										data-bs-parent="#accordionExample" style="">
+										<div class="accordion-body">
+											<div class="ms-2">
+												<div class="form-check mt-2 col-md-3 col-lg-6  col-4 col-sm-4">
+													<input class="form-check-input" type="checkbox"
+														name="inlineCheckbox" id="inlineCheckbox1">
+													<label class=" ds-text-compact-xs" for="inlineCheckbox1">
+														Islamabad
+													</label>
+												</div>
+												<div class="form-check mt-2 col-md-3 col-lg-6  col-4 col-sm-4">
+													<input class="form-check-input" type="checkbox"
+														name="inlineCheckbox" id="inlineCheckbox2">
+													<label class=" ds-text-compact-xs" for="inlineCheckbox2">
+														Peshawar
+													</label>
+												</div>
+												<div class="form-check mt-2 col-md-3 col-lg-6  col-4 col-sm-4">
+													<input class="form-check-input" type="checkbox"
+														name="inlineCheckbox" id="inlineCheckbox3">
+													<label class=" ds-text-compact-xs" for="inlineCheckbox3">
+														Quetta
+													</label>
+												</div>
+												<div class="form-check mt-2 col-md-3 col-lg-6  col-4 col-sm-4">
+													<input class="form-check-input" type="checkbox"
+														name="inlineCheckbox" id="inlineCheckbox3">
+													<label class=" ds-text-compact-xs" for="inlineCheckbox3">
+														Karachi
+													</label>
+												</div>
+												<div class="form-check mt-2 col-md-3 col-lg-6  col-4 col-sm-4">
+													<input class="form-check-input" type="checkbox"
+														name="inlineCheckbox" id="inlineCheckbox3">
+													<label class=" ds-text-compact-xs" for="inlineCheckbox3">
+														Faisalabad
+													</label>
+												</div>
+												<div class="form-check mt-2 col-md-3 col-lg-6  col-4 col-sm-4">
+													<input class="form-check-input" type="checkbox"
+														name="inlineCheckbox" id="inlineCheckbox3">
+													<label class=" ds-text-compact-xs" for="inlineCheckbox3">
+														Rawalpindi
+													</label>
+												</div>
+											</div>
 										</div>
 									</div>
-
-									<div class="col-md-6 col-sm-12 mb-3">
-										<div class="card shadow-sm rounded event-card">
-										  <div class="d-flex flex-column flex-md-row align-items-start p-3">
-											<div class="flex-grow-1">
-											  <div class="row">
-												<div class="col-md-12 position-relative">
-												  <div class="d-flex flex-row flex-wrap align-items-start">
-													<div class="d-flex flex-column align-items-start">
-													  <span class="fw-bold ds-text-compact-s">Thu, 18 Jul '24</span>
-													  <img src="./images/bowling.jpeg" alt="" class="img-fluid mt-1 d-none d-lg-block" style="max-height: 100px; max-width: 50px; object-fit: cover;">
-													</div>
-													<div class="d-flex flex-column flex-grow-1 ms-3 mb-0">
-													  <div class="d-flex align-items-start mt-0 position-relative">
-														<div class="d-flex justify-content-between w-100">
-														  <div>
-															<span class="fw-bold ds-text-compact-xs">2nd Trial •</span>
-															<span class="ms-2 ds-text-compact-xs">Gadafi stadium, July 18 - 22, 2024</span>
-														  </div>
-														  <div class="position-absolute top-0 end-0">
-															<a class="bg-light edit-button mx-2">
-															  <i class="bi bi-pencil-square"></i>
-															</a>
-															<a class="bg-light save-button mx-2">
-																<i class="bi bi-floppy2"></i>
-															</a>
-															<a class="bg-light cancel-button">
-																<i class="bi bi-x-circle-fill"></i>
-															</a>
-														  </div>
-														</div>
-													  </div>
-													  <div class="d-flex justify-content-between mt-3">
-														<h6 class="fw-bold">Trial Event 1</h6>
-														<span class="fw-bold" style="color: #FFA500;">3:00 PM</span>
-													  </div>
-													  <div class="d-flex justify-content-between mt-1">
-														<span class="fw-bold ds-text-compact-s pt-1">By Pepsi Co.</span>
-														<span class="small ds-text-compact-xs pt-1">10:00 am GMT | 11:00 am Local</span>
-													  </div>
-													  <div class="d-flex">
-														<span class="ds-text-compact-s mt-2">Bowling trials</span>
-													  </div>
-													</div>
-												  </div>
-												  <div class="diagonal-shape1">
-													<img src="images/player-blue-bg.svg" alt="bg">
-												  </div>
+								</div>
+								<!-- fascilitator -->
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+										<button class="accordion-button ds-text-compact-xs collapsed" type="button"
+											data-bs-toggle="collapse" data-bs-target="#collapseOne"
+											aria-expanded="false" aria-controls="collapseOne">
+											Fascilitator
+										</button>
+									</h2>
+									<div id="collapseOne" class="accordion-collapse collapse"
+										data-bs-parent="#accordionExample" style="">
+										<div class="accordion-body">
+											<div class="ms-2">
+												<div class="form-check mt-2 col-md-3 col-lg-6  col-4 col-sm-4">
+													<input class="form-check-input" type="checkbox"
+														name="inlineCheckbox" id="inlineCheckbox1">
+													<label class=" ds-text-compact-xs" for="inlineCheckbox1">
+														Pespi Co.
+													</label>
 												</div>
-											  </div>
+												<div class="form-check mt-2 col-md-3 col-lg-6  col-4 col-sm-4">
+													<input class="form-check-input" type="checkbox"
+														name="inlineCheckbox" id="inlineCheckbox2">
+													<label class=" ds-text-compact-xs" for="inlineCheckbox2">
+														KFC
+													</label>
+												</div>
+												<div class="form-check mt-2 col-md-3 col-lg-6  col-4 col-sm-4">
+													<input class="form-check-input" type="checkbox"
+														name="inlineCheckbox" id="inlineCheckbox3">
+													<label class=" ds-text-compact-xs" for="inlineCheckbox3">
+														PCB
+													</label>
+												</div>
 											</div>
-										  </div>
 										</div>
-									  </div>
-									  
-									
-									
-									  <div class="col-md-6 col-sm-12 mb-3">
-										<div class="card shadow-sm rounded event-card">
-										  <div class="d-flex flex-column flex-md-row align-items-start p-3">
-											<div class="flex-grow-1">
-											  <div class="row">
-												<div class="col-md-12 position-relative">
-												  <div class="d-flex flex-row flex-wrap align-items-start">
-													<div class="d-flex flex-column align-items-start">
-													  <span class="fw-bold ds-text-compact-s">Thu, 18 Jul '24</span>
-													  <img src="./images/bowling.jpeg" alt="" class="img-fluid mt-1 d-none d-lg-block" style="max-height: 100px; max-width: 50px; object-fit: cover;">
-													</div>
-													<div class="d-flex flex-column flex-grow-1 ms-3 mb-0">
-													  <div class="d-flex align-items-start mt-0 position-relative">
-														<div class="d-flex justify-content-between w-100">
-														  <div>
-															<span class="fw-bold ds-text-compact-xs">2nd Trial •</span>
-															<span class="ms-2 ds-text-compact-xs">Gadafi stadium, July 18 - 22, 2024</span>
-														  </div>
-														  <div class="position-absolute top-0 end-0">
-															<a class="bg-light edit-button mx-2">
-															  <i class="bi bi-pencil-square"></i>
-															</a>
-															<a class="bg-light save-button mx-2">
-																<i class="bi bi-floppy2"></i>
-															</a>
-															<a class="bg-light cancel-button">
-																<i class="bi bi-x-circle-fill"></i>
-															</a>
-														  </div>
-														</div>
-													  </div>
-													  <div class="d-flex justify-content-between mt-3">
-														<h6 class="fw-bold">Trial Event 1</h6>
-														<span class="fw-bold" style="color: #FFA500;">3:00 PM</span>
-													  </div>
-													  <div class="d-flex justify-content-between mt-1">
-														<span class="fw-bold ds-text-compact-s pt-1">By Pepsi Co.</span>
-														<span class="small ds-text-compact-xs pt-1">10:00 am GMT | 11:00 am Local</span>
-													  </div>
-													  <div class="d-flex">
-														<span class="ds-text-compact-s mt-2">Bowling trials</span>
-													  </div>
-													</div>
-												  </div>
-												  <div class="diagonal-shape1">
-													<img src="images/player-blue-bg.svg" alt="bg">
-												  </div>
-												</div>
-											  </div>
-											</div>
-										  </div>
-										</div>
-									  </div>
-                                    <!-- <div style="outline:none" data-index="1" class="col-md-12 col-lg-12 mb-3 bg-light slick-slide slick-active form-box" tabindex="-1" aria-hidden="false">
-										<div class="ds-p-2 ds-pb-0.5 ds-bg-fill-hsb-scorecell ds-text-compact-2xs ds-rounded-xl ds-text-compact-xxs ds-relative ds-w-[288px] card scorecard ds-no-tap-higlight" tabindex="-1" style="width:100%; display:inline-block; height: auto;">
-																			
-											<div class="d-flex flex-row align-items-center mt-3 mb-1 mx-2 justify-content-between">
-												<div>
-													<h6 class="fw-bold mb-2">Trial Event 2</h6>	
-												</div>
-												<div class="d-flex">
-													<a class="bg-light edit-button mx-2">
-														<i class="bi bi-pencil-square"></i>
-													</a>
-													<a class="bg-light save-button mx-2">
-														<i class="bi bi-floppy2"></i>
-													</a>
-													<a class="bg-light cancel-button">
-														<i class="bi bi-x-circle-fill"></i>
-													</a>
-												</div>
-											</div>
-											<hr class="mt-0">
-											<div class="mx-2 mb-3 d-flex justify-content-between align-items-center">
-												<div class="d-flex flex-column align-items-start">
-													<span class="ds-text-compact-s mb-2" >Usman Khan</span>
-
-													<span class="ds-text-compact-s " >By Pepsi Co.</span>
-													<span class=" ds-text-tight-s mb-2 ">Gadafi Stadium - Lahore</span>
-												</div>
-												<div class="d-flex flex-column align-items-center mb-3">
-													<span class="me-2 ds-text-compact-s ds-font-bold" >January 14, 2022 - January 19, 2022</span>
-													<span class="me-2 ds-text-compact-s ds-font-bold" >9:00 AM to 11:00 AM</span>
-												</div>
-												<div class="d-flex flex-column align-items-start">
-													<div class="d-flex align-items-center mb-2">
-														<img src="./images/phone.png" alt="Phone Icon" class="image-xs">
-														<span class="ds-text-compact-s" >0325-52345324</span>
-													</div>
-													<div class="d-flex align-items-center mb-2">
-														<img src="./images/email.png" alt="Email Icon" class="image-xs">
-														<span class="ds-text-compact-s">example@example.com</span>
-													</div>
-													<div class="d-flex align-items-center mb-2">
-														<img src="./images/location.png" alt="Location Icon" class="image-xs">
-														<span class="ds-text-compact-s">Punjab, Pakistan</span>
-													</div>
-												</div>
-											</div>
-											
-										</div>  
 									</div>
-									
-									<div style="outline:none" data-index="1" class="col-md-12 col-lg-12 mb-3 bg-light slick-slide slick-active form-box" tabindex="-1" aria-hidden="false">
-										<div class="ds-p-2 ds-pb-0.5 ds-bg-fill-hsb-scorecell ds-text-compact-2xs ds-rounded-xl ds-text-compact-xxs ds-relative ds-w-[288px] card scorecard ds-no-tap-higlight" tabindex="-1" style="width:100%; display:inline-block; height: auto;">
-																			
-											<div class="d-flex flex-row align-items-center mt-3 mb-1 mx-2 justify-content-between">
-												<div>
-													<h6 class="fw-bold mb-2">Trial Event 3</h6>	
-												</div>
-												<div class="d-flex">
-													<a class="bg-light edit-button mx-2">
-														<i class="bi bi-pencil-square"></i>
-													</a>
-													<a class="bg-light save-button mx-2">
-														<i class="bi bi-floppy2"></i>
-													</a>
-													<a class="bg-light cancel-button">
-														<i class="bi bi-x-circle-fill"></i>
-													</a>
-												</div>
-											</div>
-											<hr class="mt-0">
-											<div class="mx-2 mb-3 d-flex justify-content-between align-items-center">
-												<div class="d-flex flex-column align-items-start">
-													<span class="ds-text-compact-s mb-2" >Usman Khan</span>
+								</div>
 
-													<span class="ds-text-compact-s " >By Pepsi Co.</span>
-													<span class=" ds-text-tight-s mb-2 ">Gadafi Stadium - Lahore</span>
+								<!-- trial type -->
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+										<button class="accordion-button ds-text-compact-xs collapsed" type="button"
+											data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+											aria-expanded="false" aria-controls="collapseTwo">
+											Trial Type
+										</button>
+									</h2>
+									<div id="collapseTwo" class="accordion-collapse collapse"
+										data-bs-parent="#accordionExample" style="">
+										<div class="accordion-body">
+											<div class="ms-2">
+												<div class="form-check mt-2 col-md-3 col-lg-6  col-4 col-sm-4">
+													<input class="form-check-input" type="checkbox"
+														name="inlineCheckbox" id="inlineCheckbox1">
+													<label class=" ds-text-compact-xs" for="inlineCheckbox1">
+														Beginner
+													</label>
 												</div>
-												<div class="d-flex flex-column align-items-center mb-3">
-													<span class="me-2 ds-text-compact-s ds-font-bold" >January 14, 2022 - January 19, 2022</span>
-													<span class="me-2 ds-text-compact-s ds-font-bold" >9:00 AM to 11:00 AM</span>
+												<div class="form-check mt-2 col-md-3 col-lg-6  col-4 col-sm-4">
+													<input class="form-check-input" type="checkbox"
+														name="inlineCheckbox" id="inlineCheckbox2">
+													<label class=" ds-text-compact-xs" for="inlineCheckbox2">
+														Advanced
+													</label>
 												</div>
-												<div class="d-flex flex-column align-items-start">
-													<div class="d-flex align-items-center mb-2">
-														<img src="./images/phone.png" alt="Phone Icon" class="image-xs">
-														<span class="ds-text-compact-s" >0325-52345324</span>
-													</div>
-													<div class="d-flex align-items-center mb-2">
-														<img src="./images/email.png" alt="Email Icon" class="image-xs">
-														<span class="ds-text-compact-s">example@example.com</span>
-													</div>
-													<div class="d-flex align-items-center mb-2">
-														<img src="./images/location.png" alt="Location Icon" class="image-xs">
-														<span class="ds-text-compact-s">Punjab, Pakistan</span>
-													</div>
+												<div class="form-check mt-2 col-md-3 col-lg-6  col-4 col-sm-4">
+													<input class="form-check-input" type="checkbox"
+														name="inlineCheckbox" id="inlineCheckbox3">
+													<label class=" ds-text-compact-xs" for="inlineCheckbox3">
+														Professional
+													</label>
 												</div>
 											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+										<button class="accordion-button ds-text-compact-xs collapsed" type="button"
+											data-bs-toggle="collapse" data-bs-target="#collapseThree"
+											aria-expanded="false" aria-controls="collapseThree">
+											Trial Date
+										</button>
+									</h2>
+									<div id="collapseThree" class="accordion-collapse collapse"
+										data-bs-parent="#accordionExample" style="">
+										<div class="accordion-body">
+											<div class="ms-2">
+												<div class="form-check mt-2 mx-2">
+												   <input class="form-check-input" type="checkbox" name="inlineCheckbox" id="inlineCheckbox34">
+												   <label class=" ds-text-compact-xs" for="inlineCheckbox34">
+													  30 Days
+												</label></div>
+												<div class="form-check mt-2 mx-2">
+												   <input class="form-check-input" type="checkbox" name="inlineCheckbox" id="inlineCheckbox35">
+												   <label class=" ds-text-compact-xs" for="inlineCheckbox35">
+													  60 Days
+												</label></div>
+				  
+												</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+						<div class="  col-lg-9 col-md-12 px-2">
+							<div class="d-flex flex-row align-items-center justify-content-between  px-2">
+								<div>
+									<h5 class="py-1">Manage Events</h5>
+								</div>
+								<div class="justify-content-end">
+								<button type="button" class="btn digi-btn-primary me-2 mb-2 d-flex align-items-center justify-content-center" >New</button>
+								</div>
+							</div>
+							<div class="row">
+								<div class="d-flex flex-row align-items-center justify-content-between  px-2">
+									
+								</div>
+								<div id="match-card" class="match-card match-card-fw match-card-up match-card-modify ms-3 w-100 row t20-card">
+									<span class="ds-title-compact-xs pt-2 text-center">Super Trial</span>
+									<div class="match-venue text-center">
+										<span class="ds-text-compact-xxs">Lahore Stadium </span>  <span class="ds-text-compact-xxs"> Lahore - Pakistan </span>
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-12 p-0">
+									   <!-- START Card Top Session -->
+									   <div class="match-card-top text-center">
+										<div class="player-event">
+											<img src="images/cricket.png" alt="image">
+										 </div>
+										</div>
+									 </div><!-- END Card Top Session -->
+									
+									<div class="col-lg-6 col-md-6 col-sm-12 p-0  ">
+									   <!-- START Card Middle Session -->
+									   <div class="match-card-middle p-0">
+										  <div class="match-card-middle__inner d-flex  ">
+											 <div class="match-tm-info teamLeft">
+												<div class="team-wrap">
+												   <div class="tm-name hide-mob ">Event Name</div>
+												    
+												   <div class="match-coutnry-img ">
+													  <img alt="Event" class="igm-fluid " src="images/event.png"> 
+													  
+												   </div>
+												</div>
+											 </div>
+											 <div class="small-seprator"></div>
+											 <div class="match-tm-info teamRight">
+												<div class="team-wrap">
+												   <div class="match-coutnry-img ">
+													   <img alt="India" class="igm-fluid " src="images/sponser.png"> 
+													     </div>
+												   <div class="tm-name hide-mob ">Moin Khan</div>
+												</div>
+											 </div>
+										  </div>
+									   </div> <!-- END Card Middle Session -->
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-12 p-0 ">
+									   <!-- START Card Bottom Session -->
+									   <div class="tags-wrap justify-content-start ms-3  ">
+											   <span class="matchOrderText ds-text-compact-s t20-tag">8th June</span>   
+											   <span class="teamTypeTag ds-text-compact-s ">9:00 AM - 12:00 PM</span>   
+										   </div>
+<div class="match-card-bottom d-flex justify-content-start pt-0 pb-0">
+										 <a href=" #" class="match-btn match-card-btn text-white ">Edit<span class="bi bi-arrow-right px-2 text-white "> </span></a> 
+										
+										  </div>
+                                          
+									   </div> <!-- END Card Bottom Session -->
+									</div>
+									<div id="match-card" class="match-card match-card-fw match-card-up match-card-modify ms-3 w-100 row t20-card">
+										<span class="ds-title-compact-xs pt-2 text-center">Super Trial</span>
+										<div class="match-venue text-center">
+											<span class="ds-text-compact-xxs">Lahore Stadium </span>  <span class="ds-text-compact-xxs"> Lahore - Pakistan </span>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-12 p-0">
+										   <!-- START Card Top Session -->
+										   <div class="match-card-top text-center">
+											<div class="player-event">
+												<img src="images/cricket.png" alt="image">
+											 </div>
+											</div>
+										 </div><!-- END Card Top Session -->
+										
+										<div class="col-lg-6 col-md-6 col-sm-12 p-0  ">
+										   <!-- START Card Middle Session -->
+										   <div class="match-card-middle p-0">
+											  <div class="match-card-middle__inner d-flex  ">
+												 <div class="match-tm-info teamLeft">
+													<div class="team-wrap">
+													   <div class="tm-name hide-mob ">Event Name</div>
+														
+													   <div class="match-coutnry-img ">
+														  <img alt="Event" class="igm-fluid " src="images/event.png"> 
+														  
+													   </div>
+													</div>
+												 </div>
+												 <div class="small-seprator"></div>
+												 <div class="match-tm-info teamRight">
+													<div class="team-wrap">
+													   <div class="match-coutnry-img ">
+														   <img alt="India" class="igm-fluid " src="images/sponser.png"> 
+															 </div>
+													   <div class="tm-name hide-mob ">Abdur Razzaq</div>
+													</div>
+												 </div>
+											  </div>
+										   </div> <!-- END Card Middle Session -->
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-12 p-0  ">
+										   <!-- START Card Bottom Session -->
+										   <div class="tags-wrap justify-content-start ms-3  ">
+												   <span class="matchOrderText ds-text-compact-s t20-tag">18th June</span>   
+												   <span class="teamTypeTag ds-text-compact-s ">7:00 AM - 12:00 PM</span>   
+											   </div>
+	<div class="match-card-bottom d-flex justify-content-start pt-0 pb-0">
+											 <a href=" #" class="match-btn match-card-btn text-white ">Edit<span class="bi bi-arrow-right px-2 text-white "> </span></a> 
 											
-										</div>  
-									</div> -->
-																		
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-       </main>
+											  </div>
+											  
+										   </div> <!-- END Card Bottom Session -->
+										</div>
+									
+									 
+								
+								</div>
+								 							</div>
+						</div> 
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
 </body>
 <script src="assets/js/main.js"></script>
 <script src="assets/js/script.js"></script>
-<script>
-  $(document).ready(function() {
-    // Hide save and cancel buttons initially
-    $('.save-button, .cancel-button').hide();
-
-    // Assign click event handlers
-    $('.edit-button').on('click', edit_onclick);
-    $('.save-button').on('click', save_onclick);
-    $('.cancel-button').on('click', cancel_onclick);
-  });
-
-  function edit_onclick() {
-    // Toggle form to edit mode
-    setFormMode($(this).closest(".event-card"), 'edit');
-  }
-
-  function cancel_onclick() {
-    // Toggle form to view mode
-    setFormMode($(this).closest(".event-card"), 'view');
-
-    // TODO: Undo input changes?
-  }
-
-  function save_onclick() {
-    // Toggle form to view mode
-    setFormMode($(this).closest(".event-card"), 'view');
-  }
-
-  function setFormMode($form, mode) {
-    switch (mode) {
-      case 'view':
-        $form.find('.save-button, .cancel-button').hide();
-        $form.find('.edit-button').show();
-        $form.find("input, select").prop("disabled", true);
-        break;
-      case 'edit':
-        $form.find('.save-button, .cancel-button').show();
-        $form.find('.edit-button').hide();
-        $form.find("input, select").prop("disabled", false);
-        break;
-    }
-  }
-</script>
 
 </html>
