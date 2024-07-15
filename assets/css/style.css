@@ -641,7 +641,7 @@ h6 {
   transition: .5s;
   right: 9px;
 }
-.event-trial ul li a .player-type,.player-main ul li a .player-type {
+.event-trial ul li a .player-type,.player ul li a .player-type {
   display: grid;
   grid-auto-flow: column;
   width: 100%;
@@ -653,7 +653,7 @@ h6 {
   overflow: hidden;
   margin-top: 15px;
 }
-.event-trial ul li a .player-type div,.player-main ul li a .player-type div {
+.event-trial ul li a .player-type div,.player ul li a .player-type div {
   text-align: center;
   /*color: #313131;*/
   border-right: 1px solid #b6cdd1;
@@ -663,10 +663,10 @@ h6 {
   padding: 0px;
 }
 
-.event-trial ul li a .player-type span,.player-main ul li a .player-type span {
+.event-trial ul li a .player-type span,.player  ul li a .player-type span {
   font-weight: 300;
 }
-.event-trial ul li a .player-type div p,.player-main ul li a .player-type div p {
+.event-trial ul li a .player-type div p,.player  ul li a .player-type div p {
   margin-bottom: 0;
   font-weight: 700;
   letter-spacing: .96px;
