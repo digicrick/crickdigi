@@ -2657,7 +2657,7 @@ height:70px;
 .player .service-item {
   background-color: var(--surface-color);
   box-shadow: 0px 0 30px 0 rgba(0, 0, 0, 0.1);
-  padding: 50px 30px;
+  padding: 0px;
   transition: all ease-in-out 0.4s;
   height: 100%;
   overflow: hidden;
@@ -2730,7 +2730,7 @@ height:70px;
   z-index: -1;
 }
 .player .service-item:hover:before, .player .service-item:hover:after {
-  background: #3498db;
+  background: #d8eff4;
   right: 0;
   top: 0;
   width: 100%;
