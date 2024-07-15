@@ -201,7 +201,7 @@ h6 {
 
   .navmenu>ul>li {
     white-space: nowrap;
-    padding: 15px 14px;
+    padding:14px;
   }
 
   .navmenu>ul>li:last-child {
@@ -632,7 +632,7 @@ h6 {
   background-repeat: no-repeat;
   text-align: right;
   color: #ffae35;
-  font-size: 14px;
+  font-size: 1rem;
   padding-top: 0px;
   font-weight: 600;
   position: absolute;
@@ -691,6 +691,9 @@ h6 {
   opacity: .1;
 }
 
+.event-trial .bg-register{
+  background-color: #ffae35 !important;
+}
 .event-trial ul li a:hover {
   background: linear-gradient(to right bottom, #fff 52%, #133F7E 48%);
   transition: .5s;
@@ -2296,9 +2299,9 @@ height:70px;
 }
 
 .match-card.match-card-modify .matchOrderText.t20-tag {
-  border: 1px solid #0098dc;
-  background: #0098dc;
-  color: #fff;
+  border: 1px solid transparent;
+  background: none;
+  color: #ffaf35;
 }
  
  
@@ -2547,7 +2550,7 @@ height:70px;
   font-weight: 600;
 }
 .match-card-fw.match-card-up.match-card-modify .match-card-bottom .match-card-btn {
-  background-color: #dc3545;
+  background-color: #ffaf35;
 }
 .match-card.match-card-modify .match-card-bottom .match-card-btn {
   font-size: 12px;
