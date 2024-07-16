@@ -320,6 +320,8 @@ h6 {
 }
 /* Mobile Navigation */
 @media (max-width: 1199px) {
+
+
   .mobile-nav-toggle {
     color: #000;
     font-size: 2rem;
@@ -357,7 +359,7 @@ h6 {
     font-weight: 500;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: start;
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -2575,10 +2577,10 @@ height:70px;
       border-bottom: 1px solid #ccc;
       padding: 10px 10px 1rem;
       margin-bottom: 0.8rem;
+      justify-content: center;
+        display: flex;
   }
 }
-
- 
 
 @media (max-width: 460px) {
   .match-card.match-card-modify {
@@ -2602,6 +2604,7 @@ height:70px;
       flex-direction: row-reverse;
       align-items: center;
       padding: 10px 10px 5px;
+      margin-bottom: 10px;
   }
 }
 #match-live-card .match-card-top, .match-card-fw .match-card-top {
