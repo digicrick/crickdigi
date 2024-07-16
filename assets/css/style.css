@@ -1117,6 +1117,9 @@ width:300px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-left:none !important;
+  margin-left: 0;
+  padding-left: 0;
 }
 .content strong{
   font-weight: 500;
