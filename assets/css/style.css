@@ -2635,7 +2635,7 @@ height:70px;
 .players-list::after {
   height: 15rem;
   width: 15rem;
-  background-color: #4172f5aa;
+  background-color: #d8eff4;
   top: -8rem;
   right: -8rem;
   box-shadow: 2rem 6rem 0 -3rem #FFF
@@ -2669,6 +2669,12 @@ height:70px;
 
 .stats {
   margin-bottom: 1rem;
+  list-style-type: none;
+  background: #eff8fa;
+  padding: 10px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
 }
 .stats li {
   min-width: 5rem;
