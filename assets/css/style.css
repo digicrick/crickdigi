@@ -2685,7 +2685,7 @@ height:70px;
   list-style-type: none;
   background: #eff8fa;
   padding: 10px;
-  border-radius: 30px;
+  border-radius: 10px 10px 0 0;
   display: flex;
   justify-content: space-around;
 }
