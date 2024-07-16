@@ -2355,7 +2355,7 @@ height:70px;
 }
 
 .match-card.match-card-modify .match-card-top, .match-card.match-card-modify .match-card-middle, .match-card.match-card-modify .match-card-bottom {
-  padding: 0.6rem 1rem;
+  padding: 0.6rem ;
 }
 
 .match-card-top .player-event {
