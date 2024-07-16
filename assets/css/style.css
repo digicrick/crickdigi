@@ -5,9 +5,9 @@
 body {
   font-family: BentonSans-Bold,Arial,Noto Sans,sans-serif;
   color: #444444;
- 
+  overflow-x: hidden;
   background: url("https://digicrick.github.io/crickdigi/images/hero-bg.png") top center no-repeat;
-    background-size: cover;
+  background-size: cover;
   
 }
 .form-check-input:checked {
@@ -50,7 +50,7 @@ h6 {
 }
 .digi-btn-save:hover{
   color:#fff;
-  background-color:rgb(0 135 196);
+  background-color:rgb(255 175 53)
 }
 
 .digi-btn-cancel:hover {
@@ -698,6 +698,9 @@ h6 {
 
 .event-trial .bg-register{
   background-color: #ffae35 !important;
+    width: 75%;
+    font-size: 13px;
+    padding: 7px;
 }
 .event-trial ul li a:hover {
   background: linear-gradient(to right bottom, #fff 52%, #133F7E 48%);
@@ -1044,7 +1047,7 @@ width:300px;
 
 .box{
   position: relative;
-  min-width: 145px;
+  min-width: 200px;
   background-color: #fff;
   box-shadow: 2px 3px 30px rgba(0,0,0,0.05);
   display: flex;
