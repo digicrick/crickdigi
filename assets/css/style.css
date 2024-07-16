@@ -2691,6 +2691,7 @@ height:70px;
 }
 .stats li {
   min-width: 5rem;
+  border-right: 1px solid rgba(43, 63, 108, .1);
 }
 .stats li h3 {
   font-size: .99rem;
