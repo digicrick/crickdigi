@@ -2449,6 +2449,9 @@ height:70px;
   .match-card.match-card-modify {
       border-left-width: 6px;
   }
+  .box{
+    min-width: 195px;
+  }
   
 }
 @media (max-width: 940px) {
