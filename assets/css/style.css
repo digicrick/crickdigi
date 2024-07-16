@@ -2495,19 +2495,11 @@ height:70px;
   justify-content: center;
   box-shadow: none;
 }
-.match-coutnry-img {
-  overflow: hidden;
-  width: 60px;
-  height: 60px;
-  background: #FFFFFF;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 50%;
-}
 
 .match-coutnry-img {
   width: 55px;
   height: 55px;
-  background: #FFFFFF;
+  background: transparent;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
   border-radius: 50%;
 }
