@@ -2443,6 +2443,9 @@ height:70px;
       justify-content: center;
       display: flex;
   }
+  .box{
+    min-width:220px;
+  }
 }
 
 @media (max-width: 460px) {
