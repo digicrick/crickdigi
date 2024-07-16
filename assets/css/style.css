@@ -19,6 +19,10 @@ a {
   text-decoration: none;
 }
 
+.page-link{
+  color:#00a8f4 !important
+}
+
 a:hover {
   color: #616161;
   text-decoration: none;
@@ -2655,8 +2659,11 @@ height:70px;
   margin-bottom: 1rem;
 }
 .name h2 {
-  font-size: 1rem;
+  font-size: 0.875rem;
+    font-weight: 600;
+    color: #00a8f4;
 }
+ 
 .name h4 {
   font-size: .8rem;
   color: #333
