@@ -654,9 +654,11 @@ h6 {
 
 .event-trial .bg-register{
   background-color: #ffae35 !important;
-    width: 75%;
-    font-size: 13px;
-    padding: 7px;
+  width: 70%;
+  font-size: 13px;
+  padding: 0px;
+  height: 28px !important;
+  margin-top: 10px !important;
 }
 .event-trial ul li a:hover {
   background: linear-gradient(to right bottom, #fff 52%, #133F7E 48%);
