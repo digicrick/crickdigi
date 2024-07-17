@@ -14,6 +14,8 @@ body {
   background-color: #0098dc !important;
   border-color: #00a8f4 !important;
 }
+.disabled>.page-link, .page-link.disabled {
+  color: #444;
 a {
   color: #444;
   text-decoration: none;
@@ -2697,10 +2699,12 @@ height:70px;
   border-right: 1px solid rgba(43, 63, 108, .1);
 }
 .stats li h3 {
-  font-size: .99rem;
+  font-size: 0.875rem;
 }
 .stats li h4 {
   font-size: .75rem;
+  margin-bottom: 0;
+
 }
 
 .links button {
