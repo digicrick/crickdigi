@@ -2196,7 +2196,7 @@ height:70px;
 }
 @media screen and (min-width: 1680px) and (max-width: 3000px) {
   .match-card {
-      width: calc(485px - 0px);
+     /* width: calc(485px - 0px);*/
   }
 }
 .match-card.match-card-modify .matchOrderText, .match-card.match-card-modify .teamTypeTag {
