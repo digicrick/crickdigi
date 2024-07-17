@@ -2453,17 +2453,21 @@ height:70px;
 @media (max-width: 460px) {
   .match-card.match-card-modify {
       border-left-width: 6px;
-      width:405px;
+      width:405px;}
+      .form-inputs {
+        width: 100%;
   }
   .box{
-    min-width: 195px;
+    min-width: 175px;
   }
   
 }
 @media (max-width: 940px) {
   .match-card.match-card-modify {
-      border-radius: 8px;
-     
+      border-radius: 8px;}
+      .form-inputs {
+        width: 100%;
+  }
   }
 }
 @media (max-width: 940px) {
