@@ -2462,6 +2462,13 @@ height:70px;
     min-width: 175px;
   }
   
+  .dt-justify-content-center {
+    justify-content: center !important;
+}
+.dt-d-flex {
+    display: flex !important;
+}
+  
 }
 @media (max-width: 940px) {
   .match-card.match-card-modify {
