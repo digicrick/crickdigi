@@ -2562,7 +2562,7 @@ height:70px;
   font-weight: 600;
   margin: 15px 0 0 0;
   transition: 0.3s;
-  font-size: 20px;
+  font-size:16px;
 }
 .services .service-item h4 a {
   color: #040404;
@@ -2704,6 +2704,7 @@ height:70px;
 .stats li {
   min-width: 5rem;
   border-right: 1px solid rgba(43, 63, 108, .1);
+  padding: 0 5px;
 }
 .stats li h3 {
   font-size: 0.875rem;
