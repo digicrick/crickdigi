@@ -2453,6 +2453,7 @@ height:70px;
 @media (max-width: 460px) {
   .match-card.match-card-modify {
       border-left-width: 6px;
+      width:405px;
   }
   .box{
     min-width: 195px;
@@ -2462,6 +2463,7 @@ height:70px;
 @media (max-width: 940px) {
   .match-card.match-card-modify {
       border-radius: 8px;
+      width: 100%;
   }
 }
 @media (max-width: 940px) {
