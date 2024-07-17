@@ -15,7 +15,7 @@ body {
   border-color: #00a8f4 !important;
 }
 .disabled>.page-link, .page-link.disabled {
-  color: #444;
+  color: #444;}
 a {
   color: #444;
   text-decoration: none;
