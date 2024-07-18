@@ -2450,6 +2450,13 @@ height:70px;
   .box{
     min-width:220px;
   }
+  .signin-bg .bi {
+    color: #000000 !important;
+}
+
+  .signin-bg{
+    background: transparent;
+  }
 }
 
 @media (max-width: 460px) {
