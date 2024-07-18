@@ -328,6 +328,7 @@ h6 {
 .signin-bg{
   background: #2eb5f2;
 }
+ 
 /* Mobile Navigation */
 @media (max-width: 1199px) {
 
@@ -2457,6 +2458,11 @@ height:70px;
       width:405px;
     margin: auto !important;
     }
+
+    .signin-bg{
+      background: transparent;
+    }
+    #navmenu i {color:#000000;}
       .form-inputs {
         width: 100%;
   }
