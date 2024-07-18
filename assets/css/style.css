@@ -2458,11 +2458,14 @@ height:70px;
       width:405px;
     margin: auto !important;
     }
+    .signin-bg .bi {
+      color: #000000;
+  }
 
     .signin-bg{
       background: transparent;
     }
-    #navmenu i {color:#000000;}
+    #navmenu i {color:#ffffff;}
       .form-inputs {
         width: 100%;
   }
