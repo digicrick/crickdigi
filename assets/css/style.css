@@ -328,6 +328,7 @@ h6 {
 .signin-bg{
   background: #2eb5f2;
 }
+ 
 /* Mobile Navigation */
 @media (max-width: 1199px) {
 
@@ -556,7 +557,7 @@ h6 {
 
 @media screen and (max-width: 900px) {
   .wrapper .carousel {
-    grid-auto-columns: calc((100% / 2) - 0px);
+    grid-auto-columns: calc((100% / 2) - -8px);
   }
 }
 
@@ -2197,7 +2198,7 @@ height:70px;
 }
 @media screen and (min-width: 1680px) and (max-width: 3000px) {
   .match-card {
-     /* width: calc(485px - 0px);*/
+       width: calc(991px - 0px);b
   }
 }
 .match-card.match-card-modify .matchOrderText, .match-card.match-card-modify .teamTypeTag {
@@ -2454,7 +2455,14 @@ height:70px;
 @media (max-width: 460px) {
   .match-card.match-card-modify {
       border-left-width: 6px;
-      width:405px;}
+      width:405px;
+    margin: auto !important;
+    }
+
+    .signin-bg{
+      background: transparent;
+    }
+    #navmenu i {color:#000000;}
       .form-inputs {
         width: 100%;
   }
@@ -2486,7 +2494,7 @@ height:70px;
 }
 @media (max-width: 940px) {
   .match-card.match-card-modify .match-card-bottom {
-      flex-direction: row-reverse;
+      /*flex-direction: row-reverse;*/
       align-items: center;
       padding: 10px 10px 5px;
       margin-bottom: 10px;
