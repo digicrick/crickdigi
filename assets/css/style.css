@@ -2462,6 +2462,13 @@ height:70px;
     min-width: 175px;
   }
   
+  .dt-justify-content-center {
+    justify-content: center !important;
+}
+.dt-d-flex {
+    display: flex !important;
+}
+  
 }
 @media (max-width: 940px) {
   .match-card.match-card-modify {
@@ -2512,6 +2519,11 @@ height:70px;
   box-shadow: 5px 20px 20px rgba(0, 0, 0, 0.2);
 }
 
+.t-d-g{
+  background: aliceblue;
+    padding: 5px 10px;
+    border-radius: 40px;
+}
 .title{
   text-align: center;
   margin-bottom: 20px;
