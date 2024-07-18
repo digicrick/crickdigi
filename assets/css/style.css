@@ -2459,7 +2459,7 @@ height:70px;
     margin: auto !important;
     }
     .signin-bg .bi {
-      color: #000000;
+      color: #000000 !important;
   }
 
     .signin-bg{
