@@ -1789,10 +1789,7 @@ input.title {
   color: #878787;
 }
 
-.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
-  border-bottom: 2px solid #ffaf35 !important;
-   
-}
+ 
 .text-gray{color:gray}
 
 @media (min-width: 1024px){
@@ -2054,7 +2051,10 @@ background-color: rgb(249 249 251 / 100%);
 .trial-accordion .nav-tabs .nav-link.active{color: #00a8f4;
   border-bottom: 2px solid #00a8f4;font-size: 0.875rem;}
 .trial-accordion .nav-tabs .nav-link{border:none}
-
+.trial-accordion .nav-tabs .nav-link:hover{
+  border-bottom: 2px solid #ffaf35 !important;
+   
+}
 
 .comments{
 	width: 100%;
