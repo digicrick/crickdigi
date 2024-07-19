@@ -1070,7 +1070,7 @@ width:300px;
 .top-bar{
   width: 50%;
   height: 2px;
-  background: #f57803f7;
+  background: #ffaf35;
   position: absolute;
   top: 0px;
   left: 50%;
@@ -2048,7 +2048,7 @@ background-color: rgb(249 249 251 / 100%);
 }
 .trial-accordion .nav-link{color:#212529;font-size: 0.875rem;padding:15px;}
 .trial-accordion .nav-tabs .nav-link.active{color: #00a8f4;
-  border-bottom: 2px solid #f57d17;font-size: 0.875rem;}
+  border-bottom: 2px solid #ffaf35;font-size: 0.875rem;}
 .trial-accordion .nav-tabs .nav-link{border:none}
 
 
@@ -2741,7 +2741,8 @@ height:70px;
 }
 .stats li {
   min-width: 4.5rem;
-  border-right: 1px solid rgba(43, 63, 108, .1);
+  border-right: 1px solid rgb(255 193 8);
+  /* border-right:1px solid rgba(43, 63, 108, .1); */
   padding: 0 5px;
 }
 .stats li:last-child{border-right:none;}
