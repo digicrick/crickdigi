@@ -2047,7 +2047,8 @@ background-color: rgb(249 249 251 / 100%);
   padding: 15px;
 }
 .trial-accordion .nav-link{color:#212529;font-size: 0.875rem;padding:15px;}
-.trial-accordion .nav-tabs .nav-link.active{color:#00a8f4;border-bottom: 4px solid #00a8f4;font-size: 0.875rem;}
+.trial-accordion .nav-tabs .nav-link.active{color: #00a8f4;
+  border-bottom: 2px solid #f57d17;font-size: 0.875rem;}
 .trial-accordion .nav-tabs .nav-link{border:none}
 
 
@@ -2741,6 +2742,7 @@ height:70px;
   border-right: 1px solid rgba(43, 63, 108, .1);
   padding: 0 5px;
 }
+.stats li:last-child{border-right:none;}
 .stats li h3 {
   font-size: 0.875rem;
 }
