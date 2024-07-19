@@ -2595,11 +2595,10 @@ height:70px;
 }
 
 .player .service-item h4 {
-  font-weight: 600;
+  font-size: .75rem;
   margin: 15px 0 0 0;
   transition: 0.3s;
-  font-size:16px;
-}
+   }
 .services .service-item h4 a {
   color: #040404;
 }
