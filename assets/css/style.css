@@ -2591,11 +2591,11 @@ height:70px;
   justify-content: center;
   width: 56px;
   height: 56px;
-  border-radius: 50%;
+  border-radius:50%;
 }
 
 .player .service-item h4 {
-  font-size: .75rem;
+  font-size: .75rem; 
   margin: 15px 0 0 0;
   transition: 0.3s;
    }
