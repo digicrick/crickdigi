@@ -2548,6 +2548,8 @@ height:70px;
   background: aliceblue;
     padding: 5px 10px;
     border-radius: 40px;
+    width: 120px;
+    font-weight: 600;
 }
 .title{
   text-align: center;
