@@ -374,7 +374,13 @@ h6 {
     white-space: nowrap;
     transition: 0.3s;
   }
+  .signin-bg .bi {
+    color: #000000 !important;
+}
 
+  .signin-bg{
+    background: transparent;
+  }
   .navmenu a i,
   .navmenu a:focus i {
     font-size: 12px;
