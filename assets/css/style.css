@@ -271,7 +271,7 @@ h6 {
 
   .navmenu .dropdown ul {
     margin: 0;
-    padding: 10px 0;
+    padding: 0;
     background: #fff;
     display: block;
     position: absolute;
@@ -1782,13 +1782,17 @@ input.title {
    
 }
 .footer-menu li:hover a{
-  color: #ff5e14;
+  color: #ffc108;
 }
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
 }
 
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+  border-bottom: 2px solid #ffaf35 !important;
+   
+}
 .text-gray{color:gray}
 
 @media (min-width: 1024px){
@@ -2048,7 +2052,7 @@ background-color: rgb(249 249 251 / 100%);
 }
 .trial-accordion .nav-link{color:#212529;font-size: 0.875rem;padding:15px;}
 .trial-accordion .nav-tabs .nav-link.active{color: #00a8f4;
-  border-bottom: 2px solid #ffaf35;font-size: 0.875rem;}
+  border-bottom: 2px solid #00a8f4;font-size: 0.875rem;}
 .trial-accordion .nav-tabs .nav-link{border:none}
 
 
