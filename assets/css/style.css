@@ -39,7 +39,7 @@ h6 {
   font-family: BentonSans-Bold,Arial,Noto Sans,sans-serif;
 }
 .check-z{position:relative;z-index:99}
-.digi-btn-save,.digi-btn-cancel{width:80px;}
+.digi-btn-save,.digi-btn-cancel{width:72px;}
 .left-nav-h,.right-nav-h{
   font-size: 1.25rem;
   color:#000;
@@ -644,7 +644,7 @@ h6 {
 .event-trial ul li a .player-type div p {
   margin-bottom: 0;
   font-weight: 700;
-  letter-spacing: .96px;
+  letter-spacing: .46px;
   font-size: 12px;
 }
 
@@ -2448,6 +2448,10 @@ height:70px;
       padding: 0 0 10px 0;
       margin: 5px 10px 0;
   }
+
+  .ack-text{
+    font-size:.6rem;
+  }
 }
 
 @media (max-width: 940px) {
@@ -2457,6 +2461,13 @@ height:70px;
       margin-bottom: 0.8rem;
       justify-content: center;
       display: flex;
+  }
+  .event-trial .bg-register {
+    width: 85%;
+    padding: 0 5px;
+  }
+  .wrapper .carousel{
+    grid-auto-columns: calc((100% / 3) - 4px);
   }
   .box{
     min-width:220px;
