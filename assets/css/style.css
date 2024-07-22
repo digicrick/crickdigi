@@ -2467,7 +2467,7 @@ height:70px;
     padding: 0 5px;
   }
   .wrapper .carousel{
-    grid-auto-columns: calc((100% / 2) - 4px);
+    grid-auto-columns: calc((100% / 2) - -8px);
   }
   .box{
     min-width:220px;
