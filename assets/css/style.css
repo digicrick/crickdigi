@@ -640,6 +640,7 @@ h6 {
 
 .event-trial ul li a .player-type span {
   font-weight: 300;
+  color: #1a8754;
 }
 .event-trial ul li a .player-type div p {
   margin-bottom: 0;
@@ -690,7 +691,7 @@ background: #ddd;
 cursor: default;
 }
 
-.bi{color:#1a8754  }
+/* .bi{color:#1a8754  } */
 section {
   padding: 0px 0 20px 0px;
   overflow: hidden;
