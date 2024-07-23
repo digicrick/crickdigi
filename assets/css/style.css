@@ -679,6 +679,10 @@ h6 {
   height: 28px !important;
   margin-top: 10px !important;
 }
+.event-trial .bg-register:hover {
+  background: #ffa012;
+  color: #fff;
+}
 .event-trial ul li a:hover {
   background: linear-gradient(to right bottom, #fff 52%, #FFEAB0 48%);
   transition: .5s;
@@ -2438,6 +2442,11 @@ height:70px;
 }
 .match-card-fw.match-card-up.match-card-modify .match-card-bottom .match-card-btn {
   background-color: #ffaf35;
+}
+
+.match-card-fw.match-card-up.match-card-modify .match-card-bottom .match-card-btn{
+  background:#ffa012;
+  color:#fff;
 }
 .match-card.match-card-modify .match-card-bottom .match-card-btn {
   font-size: 12px;
