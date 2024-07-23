@@ -2447,6 +2447,13 @@ height:70px;
 
 }
 
+
+@media (min-width: 1180px) {
+.event-trial .bg-register {
+  width: 82%;
+   padding: 5px;
+}
+}
 @media (max-width: 940px) {
   .match-card.match-card-modify .match-card-top {
       padding: 0 0 10px 0;
@@ -2467,7 +2474,7 @@ height:70px;
       display: flex;
   }
   .event-trial .bg-register {
-    width: 85%;
+    width: 60%;
     padding: 0 5px;
   }
   .wrapper .carousel{
