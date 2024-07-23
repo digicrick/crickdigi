@@ -197,6 +197,9 @@ h6 {
     padding: 0;
   }
 
+  .navmenu>ul>li.event-trial{
+    display: none;
+  }
   .navmenu ul {
     margin: 0;
     padding: 0;
