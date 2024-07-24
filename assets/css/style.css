@@ -2440,7 +2440,7 @@ height:70px;
   font-style: normal; 
   font-weight: 600;
 }
-.match-card-fw.match-card-up.match-card-modify .match-card-bottom .match-card-btn {
+.match-card-fw.match-card-up.match-card-modify .match-card-bottom .match-card-btn:hover {
   background-color: #ffaf35;
 }
 
