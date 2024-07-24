@@ -2440,11 +2440,11 @@ height:70px;
   font-style: normal; 
   font-weight: 600;
 }
-.match-card-fw.match-card-up.match-card-modify .match-card-bottom .match-card-btn:hover {
+.match-card-fw.match-card-up.match-card-modify .match-card-bottom .match-card-btn{
   background-color: #ffaf35;
 }
 
-.match-card-fw.match-card-up.match-card-modify .match-card-bottom .match-card-btn{
+.match-card-fw.match-card-up.match-card-modify .match-card-bottom .match-card-btn:hover {
   background:#ffa012;
   color:#fff;
 }
