@@ -308,6 +308,7 @@ h6 {
   .navmenu .dropdown ul .active:hover,
   .navmenu .dropdown ul li:hover>a {
     color: #fff;
+    background: #00a8f4;
   }
 
   .navmenu .dropdown:hover>ul {
