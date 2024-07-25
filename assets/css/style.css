@@ -40,7 +40,7 @@ h6 {
   font-family: BentonSans-Bold,Arial,Noto Sans,sans-serif;
 }
 .check-z{position:relative;z-index:99}
-.digi-btn-save {width:80px;background-color: #ffae35;}
+.digi-btn-save {width:80px;background:linear-gradient(#ffae35, #ffa012)}
 .digi-btn-cancel{width:80px;background-color: #7c7c7c;}
 .digi-btn-save:hover {background-color: #ffa012}
 .digi-btn-cancel:hover{background-color: #5f5f5f;}
@@ -674,7 +674,7 @@ h6 {
 }
 
 .event-trial .bg-register{
-  background-color: #ffae35;
+  background:linear-gradient(#ffae35, #ffa012);
   width: 75%;
   font-size: 13px;
   padding: 0px;
@@ -686,7 +686,7 @@ h6 {
   color: #fff;
 }
 .event-trial ul li a:hover {
-  background: linear-gradient(to right bottom, #fff 52%, #FFEAB0 48%);
+  background: linear-gradient(to right bottom, #fff 52%, #FFDBBB 50%);
   transition: .5s;
 }
 /*--------------------------------------------------------------
@@ -2218,7 +2218,7 @@ height:70px;
 }
 @media screen and (min-width: 1680px) and (max-width: 3000px) {
   .match-card {
-       width: calc(991px - 0px);b
+       width: calc(991px - 0px);
   }
 }
 .match-card.match-card-modify .matchOrderText, .match-card.match-card-modify .teamTypeTag {
