@@ -1026,10 +1026,33 @@ width:300px;
 .fs-16{font-size: 16px;}
 
 
-
+.box:before {
+  content: "";
+  position: absolute;
+  background:#f9fbfd;
+  right: -80px;
+  top: -80px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.box:after {
+  content: "";
+  position: absolute;
+  background: #f1f7fd;
+  right: -140px;
+  top: -140px;
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  transition: all 0.3s;
+  z-index: -1;
+}
 
 .box{
-  position: relative;
+   
   min-width: 228px;
   background-color: #fff;
   box-shadow: 2px 3px 30px rgba(0,0,0,0.05);
@@ -1042,6 +1065,8 @@ width:300px;
   position: relative;
   border-radius: 10px;
   border: 1px solid #ececec;
+  overflow: hidden;
+  z-index: 1;
 }
 
 .ds-text-title-subtle-m {
